@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Linux Hello GUI
+Exec=linux-hello-gui
+Icon=linux-hello
+Type=Application
+Categories=Settings;

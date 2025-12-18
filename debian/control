@@ -1,0 +1,12 @@
+Source: linux-hello-gui
+Section: utils
+Priority: optional
+Maintainer: Édouard Biton <aarklendoia@proton.me>
+Build-Depends: debhelper-compat (= 13), python3, python3-setuptools, python3-pyside6, python3-opencv
+Standards-Version: 4.6.0
+
+Package: linux-hello-gui
+Architecture: all
+Depends: linux-hello, python3, python3-pyside6, python3-opencv, ${misc:Depends}, ${python3:Depends}
+Description: Interface graphique pour Linux-Hello
+ Une interface Qt pour configurer Linux-Hello.

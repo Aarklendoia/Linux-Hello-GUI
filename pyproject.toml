@@ -1,0 +1,13 @@
+[project]
+name = "linux-hello-gui"
+version = "1.0.0"
+description = "Interface graphique pour Linux-Hello"
+requires-python = ">=3.9"
+
+dependencies = [
+    "PySide6",
+    "opencv-python",
+]
+
+[project.scripts]
+linux-hello-gui = "linux_hello_gui.main:main"
