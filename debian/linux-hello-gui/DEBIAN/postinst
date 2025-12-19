@@ -1,0 +1,22 @@
+#!/bin/bash
+# Post-installation script for linux-hello-gui
+
+set -e
+
+# Install PolicyKit rules
+if [ ! -f /usr/share/polkit-1/actions/com.linux-hello.gui.policy ]; then
+    install -D -m 644 /usr/share/doc/linux-hello-gui/com.linux-hello.gui.policy \
+        /usr/share/polkit-1/actions/com.linux-hello.gui.policy
+fi
+
+# Update icon cache if available
+if command -v gtk-update-icon-cache &> /dev/null; then
+    gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true
+fi
+
+# Update desktop database
+if command -v update-desktop-database &> /dev/null; then
+    update-desktop-database /usr/share/applications || true
+fi
+
+echo "✓ Post-installation tasks completed"

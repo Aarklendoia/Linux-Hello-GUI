@@ -1,0 +1,10 @@
+linux-hello-gui (1.0.0-1) focal; urgency=medium
+
+  * Initial release
+  * PySide6-based GUI for Linux Hello configuration
+  * Support for 10 languages: AR, DE, EN, ES, FR, IT, JA, PT, RU, ZH_CN
+  * Face enrollment with OpenCV
+  * PAM configuration interface
+  * Advanced settings editor
+
+ -- Édouard Biton <aarklendoia@proton.me>  Thu, 19 Dec 2025 00:00:00 +0000

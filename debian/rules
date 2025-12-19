@@ -9,6 +9,9 @@ override_dh_install:
 	dh_install
 	mkdir -p debian/linux-hello-gui/usr/share/doc/linux-hello-gui
 	cp debian/com.linux-hello.gui.policy debian/linux-hello-gui/usr/share/doc/linux-hello-gui/
+	# Install translations
+	mkdir -p debian/linux-hello-gui/usr/share/linux-hello-gui/locale
+	cp -r src/linux_hello_gui/locale/* debian/linux-hello-gui/usr/share/linux-hello-gui/locale/ 2>/dev/null || true
 
 override_dh_python3:
 	dh_python3 --shebang=/usr/bin/python3

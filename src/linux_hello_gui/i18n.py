@@ -22,7 +22,24 @@ SUPPORTED_LANGUAGES = {
 DEFAULT_LANGUAGE = 'en'
 
 # Translation catalogs directory
-LOCALE_DIR = Path(__file__).parent / 'locale'
+# Look in multiple locations: development (src/linux_hello_gui/locale)
+# and installed system (/usr/share/linux-hello-gui/locale)
+def _get_locale_dir():
+    """Get locale directory path."""
+    # First try development directory
+    dev_locale = Path(__file__).parent / 'locale'
+    if dev_locale.exists():
+        return dev_locale
+    
+    # Then try system installation
+    system_locale = Path('/usr/share/linux-hello-gui/locale')
+    if system_locale.exists():
+        return system_locale
+    
+    # Fallback to development
+    return dev_locale
+
+LOCALE_DIR = _get_locale_dir()
 
 
 def setup_gettext(language=None):
