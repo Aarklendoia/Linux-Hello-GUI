@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+
+  <action id="com.linux-hello.gui.manage-config">
+    <description>Manage Linux Hello configuration</description>
+    <description xml:lang="fr">Gérer la configuration de Linux Hello</description>
+    <message>Authentication is required to manage Linux Hello configuration.</message>
+    <message xml:lang="fr">L'authentification est requise pour gérer la configuration de Linux Hello.</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="com.linux-hello.gui.manage-pam">
+    <description>Manage Linux Hello PAM configuration</description>
+    <description xml:lang="fr">Gérer la configuration PAM de Linux Hello</description>
+    <message>Authentication is required to manage PAM configuration.</message>
+    <message xml:lang="fr">L'authentification est requise pour gérer la configuration PAM.</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+  </action>
+
+  <action id="com.linux-hello.gui.enroll-face">
+    <description>Enroll face for authentication</description>
+    <description xml:lang="fr">Inscrire un visage pour l'authentification</description>
+    <message>Authentication is required to enroll face data.</message>
+    <message xml:lang="fr">L'authentification est requise pour enregistrer les données faciales.</message>
+    <defaults>
+      <allow_any>no</allow_any>
+      <allow_inactive>no</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+
+</policyconfig>

@@ -1,0 +1,245 @@
+# Italian translation for Linux Hello GUI
+# Copyright (C) 2025 Linux Hello Contributors
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linux-hello-gui 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: it\n"
+
+msgid "Linux Hello – Configuration"
+msgstr "Linux Hello – Configurazione"
+
+msgid "Ready"
+msgstr "Pronto"
+
+msgid "&File"
+msgstr "&File"
+
+msgid "&Settings"
+msgstr "&Impostazioni"
+
+msgid "&Quit"
+msgstr "&Esci"
+
+msgid "&Language"
+msgstr "&Lingua"
+
+msgid "&Help"
+msgstr "&Aiuto"
+
+msgid "&About"
+msgstr "I&nfo"
+
+msgid "About &Qt"
+msgstr "Info su &Qt"
+
+msgid "Language Changed"
+msgstr "Lingua modificata"
+
+msgid "Please restart the application for language changes to take effect."
+msgstr "Si prega di riavviare l'applicazione affinché le modifiche della lingua abbiano effetto."
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Settings can be modified in the Settings tab."
+msgstr "Le impostazioni possono essere modificate nella scheda Impostazioni."
+
+msgid "About Linux Hello"
+msgstr "Info su Linux Hello"
+
+msgid "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
+msgstr "Linux Hello – Configurazione\nVersione 1.0.0\n\nInterfaccia grafica per configurare il servizio di riconoscimento facciale Linux Hello.\n\n© Collaboratori di Linux Hello"
+
+msgid "Face Enrollment"
+msgstr "Registrazione del viso"
+
+msgid "Camera:"
+msgstr "Telecamera:"
+
+msgid "Refresh"
+msgstr "Aggiorna"
+
+msgid "Press 'Start Camera' to see preview"
+msgstr "Premere Avvia fotocamera per visualizzare l'anteprima"
+
+msgid "Username:"
+msgstr "Nome utente:"
+
+msgid "Ex: john.doe"
+msgstr "Es: john.doe"
+
+msgid "Number of photos:"
+msgstr "Numero di foto:"
+
+msgid "Start Camera"
+msgstr "Avvia fotocamera"
+
+msgid "Stop Camera"
+msgstr "Ferma fotocamera"
+
+msgid "Enroll Face"
+msgstr "Registra viso"
+
+msgid "Error"
+msgstr "Errore"
+
+msgid "Cannot open camera"
+msgstr "Impossibile aprire la fotocamera"
+
+msgid "Camera stopped"
+msgstr "Fotocamera arrestata"
+
+msgid "Please enter a username"
+msgstr "Si prega di inserire un nome utente"
+
+msgid "Camera is not active"
+msgstr "La fotocamera non è attiva"
+
+msgid "Success"
+msgstr "Successo"
+
+msgid "Face for {username} enrolled with {count} photos"
+msgstr "Viso per {username} registrato con {count} foto"
+
+msgid "Incomplete enrollment: {captured}/{total} photos captured"
+msgstr "Registrazione incompleta: {captured}/{total} foto acquisite"
+
+msgid "PAM Configuration (Authentication)"
+msgstr "Configurazione PAM (Autenticazione)"
+
+msgid "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
+msgstr "PAM (Pluggable Authentication Modules) consente di utilizzare il riconoscimento facciale per l'autenticazione del sistema."
+
+msgid "PAM Configuration"
+msgstr "Configurazione PAM"
+
+msgid "Preset configuration:"
+msgstr "Configurazione preimpostata:"
+
+msgid "Strict (facial recognition required)"
+msgstr "Rigoroso (riconoscimento facciale richiesto)"
+
+msgid "Medium (facial recognition + password)"
+msgstr "Medio (riconoscimento facciale + password)"
+
+msgid "Permissive (facial recognition optional)"
+msgstr "Permissivo (riconoscimento facciale opzionale)"
+
+msgid "Apply"
+msgstr "Applica"
+
+msgid "Options"
+msgstr "Opzioni"
+
+msgid "Facial recognition required"
+msgstr "Riconoscimento facciale richiesto"
+
+msgid "Allow password as fallback"
+msgstr "Consenti password come fallback"
+
+msgid "Cache results"
+msgstr "Risultati cache"
+
+msgid "Save Configuration"
+msgstr "Salva configurazione"
+
+msgid "Reload from Disk"
+msgstr "Ricarica dal disco"
+
+msgid "# PAM configuration not found"
+msgstr "# Configurazione PAM non trovata"
+
+msgid "Error: Permission denied to read PAM configuration"
+msgstr "Errore: Permesso negato per leggere la configurazione PAM"
+
+msgid "Error: {error}"
+msgstr "Errore: {error}"
+
+msgid "Confirmation"
+msgstr "Conferma"
+
+msgid "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
+msgstr "Sei sicuro di voler modificare la configurazione PAM?\nCiò richiede privilegi di amministratore."
+
+msgid "PAM configuration saved successfully"
+msgstr "Configurazione PAM salvata con successo"
+
+msgid "Error saving configuration: {error}"
+msgstr "Errore nel salvataggio della configurazione: {error}"
+
+msgid "Linux Hello Settings"
+msgstr "Impostazioni di Linux Hello"
+
+msgid "Camera Settings"
+msgstr "Impostazioni della fotocamera"
+
+msgid "Default camera index:"
+msgstr "Indice fotocamera predefinito:"
+
+msgid "Video width:"
+msgstr "Larghezza video:"
+
+msgid "Video height:"
+msgstr "Altezza video:"
+
+msgid "Recognition Settings"
+msgstr "Impostazioni di riconoscimento"
+
+msgid "Similarity threshold:"
+msgstr "Soglia di somiglianza:"
+
+msgid "Minimum confidence:"
+msgstr "Confidenza minima:"
+
+msgid "Performance Settings"
+msgstr "Impostazioni di prestazioni"
+
+msgid "Timeout:"
+msgstr "Timeout:"
+
+msgid "Max frames:"
+msgstr "Fotogrammi massimi:"
+
+msgid " seconds"
+msgstr " secondi"
+
+msgid "Logging"
+msgstr "Registrazione"
+
+msgid "Log level:"
+msgstr "Livello di log:"
+
+msgid "Enable logging"
+msgstr "Abilita registrazione"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Reload"
+msgstr "Ricarica"
+
+msgid "Reset to Defaults"
+msgstr "Reimposta predefiniti"
+
+msgid "Error loading configuration: {error}"
+msgstr "Errore durante il caricamento della configurazione: {error}"
+
+msgid "Are you sure you want to save this configuration?\nThis may require administrator privileges."
+msgstr "Sei sicuro di voler salvare questa configurazione?\nPuò richiedere privilegi di amministratore."
+
+msgid "Configuration saved successfully"
+msgstr "Configurazione salvata con successo"
+
+msgid "Are you sure you want to reset to default settings?"
+msgstr "Sei sicuro di voler reimpostare le impostazioni predefinite?"
+
+msgid "👤 Face"
+msgstr "👤 Viso"
+
+msgid "🔐 PAM"
+msgstr "🔐 PAM"
+
+msgid "⚙️ Settings"
+msgstr "⚙️ Impostazioni"

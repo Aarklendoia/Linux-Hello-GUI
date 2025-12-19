@@ -1,0 +1,252 @@
+# French translation for Linux Hello GUI
+# Copyright (C) 2025 Linux Hello Contributors
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linux-hello-gui 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr\n"
+
+# Main Window
+msgid "Linux Hello – Configuration"
+msgstr "Linux Hello – Configuration"
+
+msgid "Ready"
+msgstr "Prêt"
+
+msgid "&File"
+msgstr "&Fichier"
+
+msgid "&Settings"
+msgstr "&Paramètres"
+
+msgid "&Quit"
+msgstr "&Quitter"
+
+msgid "&Language"
+msgstr "&Langue"
+
+msgid "&Help"
+msgstr "Ai&de"
+
+msgid "&About"
+msgstr "À &propos"
+
+msgid "About &Qt"
+msgstr "À propos de &Qt"
+
+msgid "Language Changed"
+msgstr "Langue changée"
+
+msgid "Please restart the application for language changes to take effect."
+msgstr "Veuillez redémarrer l'application pour que les modifications linguistiques prennent effet."
+
+msgid "Settings"
+msgstr "Paramètres"
+
+msgid "Settings can be modified in the Settings tab."
+msgstr "Les paramètres peuvent être modifiés dans l'onglet Paramètres."
+
+msgid "About Linux Hello"
+msgstr "À propos de Linux Hello"
+
+msgid "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
+msgstr "Linux Hello – Configuration\nVersion 1.0.0\n\nInterface graphique pour configurer le service de reconnaissance faciale Linux Hello.\n\n© Linux Hello Contributors"
+
+# Face Enrollment
+msgid "Face Enrollment"
+msgstr "Inscription de Visage"
+
+msgid "Camera:"
+msgstr "Caméra :"
+
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+msgid "Press 'Start Camera' to see preview"
+msgstr "Appuyez sur 'Démarrer la caméra' pour voir l'aperçu"
+
+msgid "Username:"
+msgstr "Nom d'utilisateur :"
+
+msgid "Ex: john.doe"
+msgstr "Ex : john.doe"
+
+msgid "Number of photos:"
+msgstr "Nombre de photos :"
+
+msgid "Start Camera"
+msgstr "Démarrer la caméra"
+
+msgid "Stop Camera"
+msgstr "Arrêter la caméra"
+
+msgid "Enroll Face"
+msgstr "Inscrire le visage"
+
+msgid "Error"
+msgstr "Erreur"
+
+msgid "Cannot open camera"
+msgstr "Impossible d'ouvrir la caméra"
+
+msgid "Camera stopped"
+msgstr "Caméra arrêtée"
+
+msgid "Please enter a username"
+msgstr "Veuillez entrer un nom d'utilisateur"
+
+msgid "Camera is not active"
+msgstr "La caméra n'est pas active"
+
+msgid "Success"
+msgstr "Succès"
+
+msgid "Face for {username} enrolled with {count} photos"
+msgstr "Visage de {username} inscrit avec {count} photos"
+
+msgid "Incomplete enrollment: {captured}/{total} photos captured"
+msgstr "Inscription incomplète : {captured}/{total} photos capturées"
+
+# PAM Manager
+msgid "PAM Configuration (Authentication)"
+msgstr "Configuration PAM (Authentification)"
+
+msgid "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
+msgstr "PAM (Pluggable Authentication Modules) permet d'utiliser la reconnaissance faciale pour l'authentification système."
+
+msgid "PAM Configuration"
+msgstr "Configuration PAM"
+
+msgid "Preset configuration:"
+msgstr "Configuration prédéfinie :"
+
+msgid "Strict (facial recognition required)"
+msgstr "Strict (reconnaissance faciale obligatoire)"
+
+msgid "Medium (facial recognition + password)"
+msgstr "Moyenne (reconnaissance faciale + mot de passe)"
+
+msgid "Permissive (facial recognition optional)"
+msgstr "Souple (reconnaissance faciale optionnelle)"
+
+msgid "Apply"
+msgstr "Appliquer"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Facial recognition required"
+msgstr "Reconnaissance faciale obligatoire"
+
+msgid "Allow password as fallback"
+msgstr "Autoriser le mot de passe en secours"
+
+msgid "Cache results"
+msgstr "Mettre en cache les résultats"
+
+msgid "Save Configuration"
+msgstr "Enregistrer la configuration"
+
+msgid "Reload from Disk"
+msgstr "Recharger depuis le disque"
+
+msgid "# PAM configuration not found"
+msgstr "# Configuration PAM non trouvée"
+
+msgid "Error: Permission denied to read PAM configuration"
+msgstr "Erreur : Permission refusée pour lire la configuration PAM"
+
+msgid "Error: {error}"
+msgstr "Erreur : {error}"
+
+msgid "Confirmation"
+msgstr "Confirmation"
+
+msgid "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
+msgstr "Êtes-vous sûr de vouloir modifier la configuration PAM ?\nCela nécessite les droits administrateur."
+
+msgid "PAM configuration saved successfully"
+msgstr "Configuration PAM enregistrée avec succès"
+
+msgid "Error saving configuration: {error}"
+msgstr "Erreur lors de l'enregistrement de la configuration : {error}"
+
+# Config Editor
+msgid "Linux Hello Settings"
+msgstr "Paramètres de Linux Hello"
+
+msgid "Camera Settings"
+msgstr "Paramètres de la caméra"
+
+msgid "Default camera index:"
+msgstr "Index de caméra par défaut :"
+
+msgid "Video width:"
+msgstr "Largeur vidéo :"
+
+msgid "Video height:"
+msgstr "Hauteur vidéo :"
+
+msgid "Recognition Settings"
+msgstr "Paramètres de reconnaissance"
+
+msgid "Similarity threshold:"
+msgstr "Seuil de ressemblance :"
+
+msgid "Minimum confidence:"
+msgstr "Confiance minimale :"
+
+msgid "Performance Settings"
+msgstr "Paramètres de performance"
+
+msgid "Timeout:"
+msgstr "Délai d'expiration :"
+
+msgid "Max frames:"
+msgstr "Nombre max de frames :"
+
+msgid " seconds"
+msgstr " secondes"
+
+msgid "Logging"
+msgstr "Journalisation"
+
+msgid "Log level:"
+msgstr "Niveau de journalisation :"
+
+msgid "Enable logging"
+msgstr "Activer la journalisation"
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Reload"
+msgstr "Recharger"
+
+msgid "Reset to Defaults"
+msgstr "Réinitialiser par défaut"
+
+msgid "Error loading configuration: {error}"
+msgstr "Erreur lors du chargement de la configuration : {error}"
+
+msgid "Are you sure you want to save this configuration?\nThis may require administrator privileges."
+msgstr "Êtes-vous sûr de vouloir enregistrer cette configuration ?\nCela peut nécessiter les droits administrateur."
+
+msgid "Configuration saved successfully"
+msgstr "Configuration enregistrée avec succès"
+
+msgid "Are you sure you want to reset to default settings?"
+msgstr "Êtes-vous sûr de vouloir réinitialiser aux paramètres par défaut ?"
+
+# Face Enrollment Tab
+msgid "👤 Face"
+msgstr "👤 Visage"
+
+# PAM Tab
+msgid "🔐 PAM"
+msgstr "🔐 PAM"
+
+# Settings Tab
+msgid "⚙️ Settings"
+msgstr "⚙️ Paramètres"

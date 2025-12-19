@@ -1,6 +1,14 @@
 [Desktop Entry]
-Name=Linux Hello GUI
+Name=Linux Hello Configuration
+Name[fr]=Configuration Linux Hello
+Comment=Configure Linux Hello facial recognition service
+Comment[fr]=Configurer le service de reconnaissance faciale Linux Hello
 Exec=linux-hello-gui
-Icon=linux-hello
+Icon=face-recognition
 Type=Application
-Categories=Settings;
+Categories=Settings;System;
+Keywords=authentication;facial;recognition;configuration
+Keywords[fr]=authentification;reconnaissance;faciale;configuration
+Terminal=false
+StartupNotify=true
+X-KDE-SubstituteUID=true

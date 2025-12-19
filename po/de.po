@@ -1,0 +1,245 @@
+# German translation for Linux Hello GUI
+# Copyright (C) 2025 Linux Hello Contributors
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linux-hello-gui 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de\n"
+
+msgid "Linux Hello – Configuration"
+msgstr "Linux Hello – Konfiguration"
+
+msgid "Ready"
+msgstr "Bereit"
+
+msgid "&File"
+msgstr "&Datei"
+
+msgid "&Settings"
+msgstr "&Einstellungen"
+
+msgid "&Quit"
+msgstr "&Beenden"
+
+msgid "&Language"
+msgstr "&Sprache"
+
+msgid "&Help"
+msgstr "&Hilfe"
+
+msgid "&About"
+msgstr "&Über"
+
+msgid "About &Qt"
+msgstr "Über &Qt"
+
+msgid "Language Changed"
+msgstr "Sprache geändert"
+
+msgid "Please restart the application for language changes to take effect."
+msgstr "Bitte starten Sie die Anwendung neu, damit die Sprachänderungen wirksam werden."
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Settings can be modified in the Settings tab."
+msgstr "Die Einstellungen können auf der Registerkarte Einstellungen geändert werden."
+
+msgid "About Linux Hello"
+msgstr "Über Linux Hello"
+
+msgid "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
+msgstr "Linux Hello – Konfiguration\nVersion 1.0.0\n\nGraphische Oberfläche zur Konfiguration des Linux Hello Facial Recognition Service.\n\n© Linux Hello-Mitwirkende"
+
+msgid "Face Enrollment"
+msgstr "Gesichtserkennung"
+
+msgid "Camera:"
+msgstr "Kamera:"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Press 'Start Camera' to see preview"
+msgstr "Drücken Sie Kamera starten, um eine Vorschau zu sehen"
+
+msgid "Username:"
+msgstr "Benutzername:"
+
+msgid "Ex: john.doe"
+msgstr "Bsp.: john.doe"
+
+msgid "Number of photos:"
+msgstr "Anzahl der Fotos:"
+
+msgid "Start Camera"
+msgstr "Kamera starten"
+
+msgid "Stop Camera"
+msgstr "Kamera stoppen"
+
+msgid "Enroll Face"
+msgstr "Gesicht registrieren"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Cannot open camera"
+msgstr "Kann Kamera nicht öffnen"
+
+msgid "Camera stopped"
+msgstr "Kamera gestoppt"
+
+msgid "Please enter a username"
+msgstr "Bitte geben Sie einen Benutzernamen ein"
+
+msgid "Camera is not active"
+msgstr "Kamera ist nicht aktiv"
+
+msgid "Success"
+msgstr "Erfolg"
+
+msgid "Face for {username} enrolled with {count} photos"
+msgstr "Gesicht für {username} mit {count} Fotos registriert"
+
+msgid "Incomplete enrollment: {captured}/{total} photos captured"
+msgstr "Unvollständige Registrierung: {captured}/{total} Fotos erfasst"
+
+msgid "PAM Configuration (Authentication)"
+msgstr "PAM-Konfiguration (Authentifizierung)"
+
+msgid "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
+msgstr "PAM (Pluggable Authentication Modules) ermöglicht die Verwendung von Gesichtserkennung für die Systemauthentifizierung."
+
+msgid "PAM Configuration"
+msgstr "PAM-Konfiguration"
+
+msgid "Preset configuration:"
+msgstr "Vorkonfiguration:"
+
+msgid "Strict (facial recognition required)"
+msgstr "Streng (Gesichtserkennung erforderlich)"
+
+msgid "Medium (facial recognition + password)"
+msgstr "Mittel (Gesichtserkennung + Passwort)"
+
+msgid "Permissive (facial recognition optional)"
+msgstr "Permissiv (Gesichtserkennung optional)"
+
+msgid "Apply"
+msgstr "Anwenden"
+
+msgid "Options"
+msgstr "Optionen"
+
+msgid "Facial recognition required"
+msgstr "Gesichtserkennung erforderlich"
+
+msgid "Allow password as fallback"
+msgstr "Passwort als Fallback zulassen"
+
+msgid "Cache results"
+msgstr "Ergebnisse zwischenspeichern"
+
+msgid "Save Configuration"
+msgstr "Konfiguration speichern"
+
+msgid "Reload from Disk"
+msgstr "Vom Datenträger neu laden"
+
+msgid "# PAM configuration not found"
+msgstr "# PAM-Konfiguration nicht gefunden"
+
+msgid "Error: Permission denied to read PAM configuration"
+msgstr "Fehler: Berechtigung zum Lesen der PAM-Konfiguration verweigert"
+
+msgid "Error: {error}"
+msgstr "Fehler: {error}"
+
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+msgid "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
+msgstr "Sind Sie sicher, dass Sie die PAM-Konfiguration ändern möchten?\nDies erfordert Administratorrechte."
+
+msgid "PAM configuration saved successfully"
+msgstr "PAM-Konfiguration erfolgreich gespeichert"
+
+msgid "Error saving configuration: {error}"
+msgstr "Fehler beim Speichern der Konfiguration: {error}"
+
+msgid "Linux Hello Settings"
+msgstr "Linux Hello-Einstellungen"
+
+msgid "Camera Settings"
+msgstr "Kameraeinstellungen"
+
+msgid "Default camera index:"
+msgstr "Standard-Kameraindex:"
+
+msgid "Video width:"
+msgstr "Videobreite:"
+
+msgid "Video height:"
+msgstr "Videohöhe:"
+
+msgid "Recognition Settings"
+msgstr "Erkennungseinstellungen"
+
+msgid "Similarity threshold:"
+msgstr "Ähnlichkeitsschwelle:"
+
+msgid "Minimum confidence:"
+msgstr "Minimales Vertrauen:"
+
+msgid "Performance Settings"
+msgstr "Leistungseinstellungen"
+
+msgid "Timeout:"
+msgstr "Zeitüberschreitung:"
+
+msgid "Max frames:"
+msgstr "Max. Bilder:"
+
+msgid " seconds"
+msgstr " Sekunden"
+
+msgid "Logging"
+msgstr "Protokollierung"
+
+msgid "Log level:"
+msgstr "Protokollstufe:"
+
+msgid "Enable logging"
+msgstr "Protokollierung aktivieren"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Reload"
+msgstr "Neuladen"
+
+msgid "Reset to Defaults"
+msgstr "Auf Standardwerte zurücksetzen"
+
+msgid "Error loading configuration: {error}"
+msgstr "Fehler beim Laden der Konfiguration: {error}"
+
+msgid "Are you sure you want to save this configuration?\nThis may require administrator privileges."
+msgstr "Sind Sie sicher, dass Sie diese Konfiguration speichern möchten?\nDies kann Administratorrechte erfordern."
+
+msgid "Configuration saved successfully"
+msgstr "Konfiguration erfolgreich gespeichert"
+
+msgid "Are you sure you want to reset to default settings?"
+msgstr "Sind Sie sicher, dass Sie die Einstellungen auf Standardwerte zurücksetzen möchten?"
+
+msgid "👤 Face"
+msgstr "👤 Gesicht"
+
+msgid "🔐 PAM"
+msgstr "🔐 PAM"
+
+msgid "⚙️ Settings"
+msgstr "⚙️ Einstellungen"

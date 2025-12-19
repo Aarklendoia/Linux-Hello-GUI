@@ -2,11 +2,37 @@ Source: linux-hello-gui
 Section: utils
 Priority: optional
 Maintainer: Édouard Biton <aarklendoia@proton.me>
-Build-Depends: debhelper-compat (= 13), python3, python3-setuptools, python3-pyside6, python3-opencv
+Homepage: https://github.com/ebiton/Linux-Hello
+Build-Depends: 
+ debhelper-compat (= 13),
+ python3 (>= 3.9),
+ python3-setuptools,
+ python3-pyside6 (>= 6.4),
+ python3-opencv
 Standards-Version: 4.6.0
+Vcs-Git: https://github.com/ebiton/Linux-Hello.git
+Vcs-Browser: https://github.com/ebiton/Linux-Hello
 
 Package: linux-hello-gui
 Architecture: all
-Depends: linux-hello, python3, python3-pyside6, python3-opencv, ${misc:Depends}, ${python3:Depends}
+Depends:
+ linux-hello,
+ python3 (>= 3.9),
+ python3-pyside6 (>= 6.4),
+ python3-opencv,
+ ${misc:Depends},
+ ${python3:Depends}
+Recommends:
+ kde-plasma-desktop | xfce4 | gnome-shell,
+ libpam-linux-hello
 Description: Interface graphique pour Linux-Hello
- Une interface Qt pour configurer Linux-Hello.
+ Interface Qt (PySide6) pour configurer le service de reconnaissance faciale
+ Linux-Hello.
+ .
+ Fonctionnalités:
+  * Inscription de visages pour l'authentification
+  * Configuration du module PAM (Pluggable Authentication Modules)
+  * Paramétrage des seuils de reconnaissance
+  * Gestion des paramètres caméra et performance
+ .
+ Intégration complète avec KDE Plasma et autres environnements de bureau.

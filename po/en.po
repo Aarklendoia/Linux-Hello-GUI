@@ -1,0 +1,245 @@
+# English translation for Linux Hello GUI
+# Copyright (C) 2025 Linux Hello Contributors
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linux-hello-gui 1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+
+msgid "Linux Hello – Configuration"
+msgstr "Linux Hello – Configuration"
+
+msgid "Ready"
+msgstr "Ready"
+
+msgid "&File"
+msgstr "&File"
+
+msgid "&Settings"
+msgstr "&Settings"
+
+msgid "&Quit"
+msgstr "&Quit"
+
+msgid "&Language"
+msgstr "&Language"
+
+msgid "&Help"
+msgstr "&Help"
+
+msgid "&About"
+msgstr "&About"
+
+msgid "About &Qt"
+msgstr "About &Qt"
+
+msgid "Language Changed"
+msgstr "Language Changed"
+
+msgid "Please restart the application for language changes to take effect."
+msgstr "Please restart the application for language changes to take effect."
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Settings can be modified in the Settings tab."
+msgstr "Settings can be modified in the Settings tab."
+
+msgid "About Linux Hello"
+msgstr "About Linux Hello"
+
+msgid "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
+msgstr "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
+
+msgid "Face Enrollment"
+msgstr "Face Enrollment"
+
+msgid "Camera:"
+msgstr "Camera:"
+
+msgid "Refresh"
+msgstr "Refresh"
+
+msgid "Press 'Start Camera' to see preview"
+msgstr "Press 'Start Camera' to see preview"
+
+msgid "Username:"
+msgstr "Username:"
+
+msgid "Ex: john.doe"
+msgstr "Ex: john.doe"
+
+msgid "Number of photos:"
+msgstr "Number of photos:"
+
+msgid "Start Camera"
+msgstr "Start Camera"
+
+msgid "Stop Camera"
+msgstr "Stop Camera"
+
+msgid "Enroll Face"
+msgstr "Enroll Face"
+
+msgid "Error"
+msgstr "Error"
+
+msgid "Cannot open camera"
+msgstr "Cannot open camera"
+
+msgid "Camera stopped"
+msgstr "Camera stopped"
+
+msgid "Please enter a username"
+msgstr "Please enter a username"
+
+msgid "Camera is not active"
+msgstr "Camera is not active"
+
+msgid "Success"
+msgstr "Success"
+
+msgid "Face for {username} enrolled with {count} photos"
+msgstr "Face for {username} enrolled with {count} photos"
+
+msgid "Incomplete enrollment: {captured}/{total} photos captured"
+msgstr "Incomplete enrollment: {captured}/{total} photos captured"
+
+msgid "PAM Configuration (Authentication)"
+msgstr "PAM Configuration (Authentication)"
+
+msgid "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
+msgstr "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
+
+msgid "PAM Configuration"
+msgstr "PAM Configuration"
+
+msgid "Preset configuration:"
+msgstr "Preset configuration:"
+
+msgid "Strict (facial recognition required)"
+msgstr "Strict (facial recognition required)"
+
+msgid "Medium (facial recognition + password)"
+msgstr "Medium (facial recognition + password)"
+
+msgid "Permissive (facial recognition optional)"
+msgstr "Permissive (facial recognition optional)"
+
+msgid "Apply"
+msgstr "Apply"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Facial recognition required"
+msgstr "Facial recognition required"
+
+msgid "Allow password as fallback"
+msgstr "Allow password as fallback"
+
+msgid "Cache results"
+msgstr "Cache results"
+
+msgid "Save Configuration"
+msgstr "Save Configuration"
+
+msgid "Reload from Disk"
+msgstr "Reload from Disk"
+
+msgid "# PAM configuration not found"
+msgstr "# PAM configuration not found"
+
+msgid "Error: Permission denied to read PAM configuration"
+msgstr "Error: Permission denied to read PAM configuration"
+
+msgid "Error: {error}"
+msgstr "Error: {error}"
+
+msgid "Confirmation"
+msgstr "Confirmation"
+
+msgid "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
+msgstr "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
+
+msgid "PAM configuration saved successfully"
+msgstr "PAM configuration saved successfully"
+
+msgid "Error saving configuration: {error}"
+msgstr "Error saving configuration: {error}"
+
+msgid "Linux Hello Settings"
+msgstr "Linux Hello Settings"
+
+msgid "Camera Settings"
+msgstr "Camera Settings"
+
+msgid "Default camera index:"
+msgstr "Default camera index:"
+
+msgid "Video width:"
+msgstr "Video width:"
+
+msgid "Video height:"
+msgstr "Video height:"
+
+msgid "Recognition Settings"
+msgstr "Recognition Settings"
+
+msgid "Similarity threshold:"
+msgstr "Similarity threshold:"
+
+msgid "Minimum confidence:"
+msgstr "Minimum confidence:"
+
+msgid "Performance Settings"
+msgstr "Performance Settings"
+
+msgid "Timeout:"
+msgstr "Timeout:"
+
+msgid "Max frames:"
+msgstr "Max frames:"
+
+msgid " seconds"
+msgstr " seconds"
+
+msgid "Logging"
+msgstr "Logging"
+
+msgid "Log level:"
+msgstr "Log level:"
+
+msgid "Enable logging"
+msgstr "Enable logging"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Reload"
+msgstr "Reload"
+
+msgid "Reset to Defaults"
+msgstr "Reset to Defaults"
+
+msgid "Error loading configuration: {error}"
+msgstr "Error loading configuration: {error}"
+
+msgid "Are you sure you want to save this configuration?\nThis may require administrator privileges."
+msgstr "Are you sure you want to save this configuration?\nThis may require administrator privileges."
+
+msgid "Configuration saved successfully"
+msgstr "Configuration saved successfully"
+
+msgid "Are you sure you want to reset to default settings?"
+msgstr "Are you sure you want to reset to default settings?"
+
+msgid "👤 Face"
+msgstr "👤 Face"
+
+msgid "🔐 PAM"
+msgstr "🔐 PAM"
+
+msgid "⚙️ Settings"
+msgstr "⚙️ Settings"
