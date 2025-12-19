@@ -1,0 +1,74 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'gui-[0-9]+.[0-9]+.[0-9]+'  # GUI tags: gui-1.0.0, gui-1.2.3, etc.
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Extract version from tag
+        id: version
+        run: |
+          TAG=${{ github.ref }}
+          VERSION=${TAG#refs/tags/gui-}
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "tag_name=Linux Hello GUI v$VERSION" >> $GITHUB_OUTPUT
+      
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            debhelper \
+            dh-python \
+            python3-setuptools \
+            gettext \
+            devscripts
+      
+      - name: Update version in debian/changelog
+        run: |
+          cd debian
+          cat > changelog.new << 'EOF'
+linux-hello-gui (${{ steps.version.outputs.version }}-1) focal; urgency=medium
+
+  * Release ${{ steps.version.outputs.version }}
+  * See https://github.com/ebiton/Linux-Hello/releases/tag/gui-${{ steps.version.outputs.version }} for details
+
+ -- Édouard Biton <aarklendoia@proton.me>  $(date -R)
+EOF
+          cat changelog >> changelog.new
+          mv changelog.new changelog
+      
+      - name: Build Debian package
+        run: |
+          cd $GITHUB_WORKSPACE
+          dpkg-buildpackage -d -us -uc
+      
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref }}
+          name: ${{ steps.version.outputs.tag_name }}
+          files: ../linux-hello-gui_*.deb
+          generate_release_notes: true
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
