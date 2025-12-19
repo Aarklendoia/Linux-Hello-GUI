@@ -34,7 +34,11 @@ jobs:
             python3-setuptools \
             gettext \
             flake8 \
-            pylint
+            pylint \
+            libgl1 \
+            libxkbcommon0 \
+            libdbus-1-3 \
+            libfontconfig1
       
       - name: Install Python dependencies
         run: |
