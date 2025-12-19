@@ -54,7 +54,7 @@ jobs:
       
       - name: Test imports
         run: |
-          python test_imports.py
+          QT_QPA_PLATFORM=offscreen python test_imports.py
       
       - name: Build package
         run: |
