@@ -7,7 +7,7 @@ dd840e440f7cb536976a664aa54cb660  usr/lib/python3/dist-packages/linux_hello_gui-
 12562919888896f78b442b00aecbeec1  usr/lib/python3/dist-packages/linux_hello_gui/__init__.py
 5984bd9e8c4d4c603c73dddbe7d9eb94  usr/lib/python3/dist-packages/linux_hello_gui/camera_widget.py
 40d6536b73e2d8158640677bec07b4a4  usr/lib/python3/dist-packages/linux_hello_gui/config_editor.py
-74540a855ee4da6e6d5d92584abefa85  usr/lib/python3/dist-packages/linux_hello_gui/face_enroll.py
+25c1c36563877837d7fed5e9ccff4808  usr/lib/python3/dist-packages/linux_hello_gui/face_enroll.py
 d5eb425685e7f59eca16af346d1e5892  usr/lib/python3/dist-packages/linux_hello_gui/i18n.py
 799ae8875585edad9fa1482ad93f6b5a  usr/lib/python3/dist-packages/linux_hello_gui/kde_integration.py
 9a4afe26e708968d49c70ca5ccc72931  usr/lib/python3/dist-packages/linux_hello_gui/locale/ar/LC_MESSAGES/linux-hello-gui.mo
@@ -20,11 +20,11 @@ f2e68aa5b5b9029ac7beade2d36c07df  usr/lib/python3/dist-packages/linux_hello_gui/
 208e0f4e40bf67f2bd88c99cfaac3e65  usr/lib/python3/dist-packages/linux_hello_gui/locale/pt/LC_MESSAGES/linux-hello-gui.mo
 8c8f6ca3a81e16a869dd8809531f4b7f  usr/lib/python3/dist-packages/linux_hello_gui/locale/ru/LC_MESSAGES/linux-hello-gui.mo
 2b96b0209215ae8468d083a0c1729ab1  usr/lib/python3/dist-packages/linux_hello_gui/locale/zh_CN/LC_MESSAGES/linux-hello-gui.mo
-44e75ae86d6e635f6771ff8929256a7a  usr/lib/python3/dist-packages/linux_hello_gui/main.py
-4001fc04376d093942dcb234093aeb71  usr/lib/python3/dist-packages/linux_hello_gui/pam_manager.py
+1a94e6e468d0622615b4b3a1d8f183a6  usr/lib/python3/dist-packages/linux_hello_gui/main.py
+70feee84a8e1636ac0750dae993298a3  usr/lib/python3/dist-packages/linux_hello_gui/pam_manager.py
 39994aeed02d815bd268fe88cca564d0  usr/lib/python3/dist-packages/linux_hello_gui/sudo_helper.py
-341f79dcd5f78671333a59a7ebd033f4  usr/lib/python3/dist-packages/linux_hello_gui/window.py
-bd3c9bd8a5049443390bdd9b6eb7c3fe  usr/share/applications/linux-hello-gui.desktop
+435b08ac285c14bacfbf3982c2c4fd9c  usr/lib/python3/dist-packages/linux_hello_gui/window.py
+cc81f3b549786b0474d6386f33d6a83b  usr/share/applications/linux-hello-gui.desktop
 74b23abbcff11dca413ed10a9ddbfa55  usr/share/doc/linux-hello-gui/changelog.Debian.gz
 3a9dc92c6f643aad8734eb197fe896ae  usr/share/doc/linux-hello-gui/com.linux-hello.gui.policy
 9a4afe26e708968d49c70ca5ccc72931  usr/share/linux-hello-gui/locale/ar/LC_MESSAGES/linux-hello-gui.mo

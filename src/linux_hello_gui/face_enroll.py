@@ -10,6 +10,7 @@ import cv2
 import numpy as np
 import json
 import os
+import getpass
 from .i18n import _
 
 
@@ -51,13 +52,10 @@ class FaceEnrollWidget(QWidget):
         self.video_label.setAlignment(Qt.AlignCenter)
         layout.addWidget(self.video_label)
         
-        # User info
-        user_layout = QHBoxLayout()
-        user_layout.addWidget(QLabel(_("Username:")))
-        self.username_input = QLineEdit()
-        self.username_input.setPlaceholderText(_("Ex: john.doe"))
-        user_layout.addWidget(self.username_input)
-        layout.addLayout(user_layout)
+        # Current user info
+        current_user = getpass.getuser()
+        user_info = QLabel(_("Enrolling face for user: <b>{}</b>").format(current_user))
+        layout.addWidget(user_info)
         
         # Number of samples
         samples_layout = QHBoxLayout()
@@ -154,19 +152,18 @@ class FaceEnrollWidget(QWidget):
         self.video_label.setPixmap(pixmap)
     
     def enroll_face(self):
-        """Enroll face for user."""
-        username = self.username_input.text().strip()
-        if not username:
-            QMessageBox.warning(self, _("Error"), _("Please enter a username"))
-            return
+        """Enroll face for current user."""
+        current_user = getpass.getuser()
+        home_dir = os.path.expanduser("~")
         
         if not self.cap:
             QMessageBox.warning(self, _("Error"), _("Camera is not active"))
             return
         
-        # Check if enrollment directory exists
-        enroll_dir = f"/etc/linux-hello/faces/{username}"
+        # Create enrollment directory in user home
+        enroll_dir = os.path.join(home_dir, ".linux-hello", "faces")
         os.makedirs(enroll_dir, exist_ok=True)
+        os.chmod(enroll_dir, 0o700)
         
         num_samples = self.samples_spinbox.value()
         captured = 0
@@ -184,7 +181,7 @@ class FaceEnrollWidget(QWidget):
             captured += 1
             
             # Update display
-            self.video_label.setText(f"Capture {captured}/{num_samples}")
+            self.video_label.setText(_("Capture {current}/{total}").format(current=captured, total=num_samples))
             self.video_label.update()
         
         self.enroll_btn.setEnabled(True)
@@ -193,11 +190,10 @@ class FaceEnrollWidget(QWidget):
             QMessageBox.information(
                 self, 
                 _("Success"), 
-                _("Face for {username} enrolled with {count} photos").format(
-                    username=username, count=num_samples
+                _("Face enrolled successfully with {count} photos").format(
+                    count=num_samples
                 )
             )
-            self.username_input.clear()
         else:
             QMessageBox.warning(
                 self, 
