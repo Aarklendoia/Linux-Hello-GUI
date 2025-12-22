@@ -25,8 +25,15 @@ class KDEIntegration:
             app.setApplicationName("Linux Hello Configuration")
             app.setApplicationVersion("1.0.0")
             app.setApplicationDisplayName("Configuration Linux Hello")
-            app.setApplicationAuthor("Linux Hello Contributors")
-            app.setWindowIcon(QIcon.fromTheme("face-recognition"))
+            try:
+                app.setApplicationAuthor("Linux Hello Contributors")
+            except AttributeError:
+                # PySide6 may not have setApplicationAuthor
+                pass
+            try:
+                app.setWindowIcon(QIcon.fromTheme("face-recognition"))
+            except:
+                pass
     
     @staticmethod
     def get_kde_color(color_name: str) -> QColor:

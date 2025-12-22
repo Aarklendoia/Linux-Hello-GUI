@@ -1,5 +1,5 @@
 d942d6aba870d63f30afb531332d8523  usr/bin/linux-hello-gui
-e8e94257fc950587d5eaba38b0bf71a4  usr/lib/python3/dist-packages/linux_hello_gui-1.0.0.egg-info/PKG-INFO
+a6c72c7065e70e728e8bee8f5ddc35f3  usr/lib/python3/dist-packages/linux_hello_gui-1.0.0.egg-info/PKG-INFO
 68b329da9893e34099c7d8ad5cb9c940  usr/lib/python3/dist-packages/linux_hello_gui-1.0.0.egg-info/dependency_links.txt
 6fe06fdd626bcecf7f9f2737b5c64763  usr/lib/python3/dist-packages/linux_hello_gui-1.0.0.egg-info/entry_points.txt
 74e663e1ebe2c949b6802eeabfbd0577  usr/lib/python3/dist-packages/linux_hello_gui-1.0.0.egg-info/requires.txt
@@ -9,7 +9,7 @@ dd840e440f7cb536976a664aa54cb660  usr/lib/python3/dist-packages/linux_hello_gui-
 40d6536b73e2d8158640677bec07b4a4  usr/lib/python3/dist-packages/linux_hello_gui/config_editor.py
 74540a855ee4da6e6d5d92584abefa85  usr/lib/python3/dist-packages/linux_hello_gui/face_enroll.py
 d5eb425685e7f59eca16af346d1e5892  usr/lib/python3/dist-packages/linux_hello_gui/i18n.py
-57b0ccddaca5927755aac322d2c63552  usr/lib/python3/dist-packages/linux_hello_gui/kde_integration.py
+799ae8875585edad9fa1482ad93f6b5a  usr/lib/python3/dist-packages/linux_hello_gui/kde_integration.py
 9a4afe26e708968d49c70ca5ccc72931  usr/lib/python3/dist-packages/linux_hello_gui/locale/ar/LC_MESSAGES/linux-hello-gui.mo
 ee260bf8336305d7a5d648af68c4f81e  usr/lib/python3/dist-packages/linux_hello_gui/locale/de/LC_MESSAGES/linux-hello-gui.mo
 536409baf53425e9666f4bbc15df578a  usr/lib/python3/dist-packages/linux_hello_gui/locale/en/LC_MESSAGES/linux-hello-gui.mo

@@ -7,7 +7,9 @@ Build-Depends:
  debhelper-compat (= 13),
  python3 (>= 3.9),
  python3-setuptools,
- python3-pyside6 (>= 6.4),
+ python3-pyside6.qtcore,
+ python3-pyside6.qtgui,
+ python3-pyside6.qtwidgets,
  python3-opencv
 Standards-Version: 4.6.0
 Vcs-Git: https://github.com/ebiton/Linux-Hello.git
@@ -18,7 +20,9 @@ Architecture: all
 Depends:
  linux-hello,
  python3 (>= 3.9),
- python3-pyside6 (>= 6.4),
+ python3-pyside6.qtcore,
+ python3-pyside6.qtgui,
+ python3-pyside6.qtwidgets,
  python3-opencv,
  ${misc:Depends},
  ${python3:Depends}
