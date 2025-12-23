@@ -4,242 +4,390 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: linux-hello-gui 1.0.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-23 15:30+0100\n"
 "Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 
-msgid "Linux Hello – Configuration"
-msgstr "Linux Hello – 配置"
-
-msgid "Ready"
-msgstr "准备就绪"
-
-msgid "&File"
-msgstr "&文件"
-
-msgid "&Settings"
-msgstr "&设置"
-
-msgid "&Quit"
-msgstr "&退出"
-
-msgid "&Language"
-msgstr "&语言"
-
-msgid "&Help"
-msgstr "&帮助"
-
-msgid "&About"
-msgstr "&关于"
-
-msgid "About &Qt"
-msgstr "关于 &Qt"
-
-msgid "Language Changed"
-msgstr "语言已更改"
-
-msgid "Please restart the application for language changes to take effect."
-msgstr "请重新启动应用程序以使语言更改生效。"
-
-msgid "Settings"
-msgstr "设置"
-
-msgid "Settings can be modified in the Settings tab."
-msgstr "可以在选项卡中修改设置。"
-
-msgid "About Linux Hello"
-msgstr "关于 Linux Hello"
-
-msgid "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
-msgstr "Linux Hello – 配置\n版本 1.0.0\n\n用于配置 Linux Hello 面部识别服务的图形界面。\n\n© Linux Hello 贡献者"
-
-msgid "Face Enrollment"
-msgstr "人脸登记"
-
-msgid "Camera:"
-msgstr "相机:"
-
-msgid "Refresh"
-msgstr "刷新"
-
-msgid "Press 'Start Camera' to see preview"
-msgstr "按启动相机查看预览"
-
-msgid "Username:"
-msgstr "用户名:"
-
-msgid "Ex: john.doe"
-msgstr "例: john.doe"
-
-msgid "Number of photos:"
-msgstr "照片数量:"
-
-msgid "Start Camera"
-msgstr "启动相机"
-
-msgid "Stop Camera"
-msgstr "停止相机"
-
-msgid "Enroll Face"
-msgstr "登记人脸"
-
-msgid "Error"
-msgstr "错误"
-
-msgid "Cannot open camera"
-msgstr "无法打开相机"
-
-msgid "Camera stopped"
-msgstr "相机已停止"
-
-msgid "Please enter a username"
-msgstr "请输入用户名"
-
-msgid "Camera is not active"
-msgstr "相机未激活"
-
-msgid "Success"
-msgstr "成功"
-
-msgid "Face for {username} enrolled with {count} photos"
-msgstr "已使用 {count} 张照片为 {username} 登记人脸"
-
-msgid "Incomplete enrollment: {captured}/{total} photos captured"
-msgstr "登记不完整：已捕获 {captured}/{total} 张照片"
-
-msgid "PAM Configuration (Authentication)"
-msgstr "PAM 配置（身份验证）"
-
-msgid "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
-msgstr "PAM（可插拔身份验证模块）允许为系统身份验证使用面部识别。"
-
-msgid "PAM Configuration"
-msgstr "PAM 配置"
-
-msgid "Preset configuration:"
-msgstr "预设配置:"
-
-msgid "Strict (facial recognition required)"
-msgstr "严格（需要面部识别）"
-
-msgid "Medium (facial recognition + password)"
-msgstr "中等（面部识别+密码）"
-
-msgid "Permissive (facial recognition optional)"
-msgstr "宽松（面部识别可选）"
-
-msgid "Apply"
-msgstr "应用"
-
-msgid "Options"
-msgstr "选项"
-
-msgid "Facial recognition required"
-msgstr "需要面部识别"
-
-msgid "Allow password as fallback"
-msgstr "允许密码作为备用"
-
-msgid "Cache results"
-msgstr "缓存结果"
-
-msgid "Save Configuration"
-msgstr "保存配置"
-
-msgid "Reload from Disk"
-msgstr "从磁盘重新加载"
-
-msgid "# PAM configuration not found"
+#: pam_manager.py
+#
+msgid "# PAM configuration not found. Use presets to create it."
 msgstr "# 找不到 PAM 配置"
 
-msgid "Error: Permission denied to read PAM configuration"
-msgstr "错误：读取 PAM 配置的权限被拒绝"
-
-msgid "Error: {error}"
-msgstr "错误：{error}"
-
-msgid "Confirmation"
-msgstr "确认"
-
-msgid "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
-msgstr "确定要修改 PAM 配置吗？\n这需要管理员权限。"
-
-msgid "PAM configuration saved successfully"
-msgstr "PAM 配置已成功保存"
-
-msgid "Error saving configuration: {error}"
-msgstr "保存配置错误: {error}"
-
-msgid "Linux Hello Settings"
-msgstr "Linux Hello 设置"
-
-msgid "Camera Settings"
-msgstr "相机设置"
-
-msgid "Default camera index:"
-msgstr "默认相机索引:"
-
-msgid "Video width:"
-msgstr "视频宽度:"
-
-msgid "Video height:"
-msgstr "视频高度:"
-
-msgid "Recognition Settings"
-msgstr "识别设置"
-
-msgid "Similarity threshold:"
-msgstr "相似度阈值:"
-
-msgid "Minimum confidence:"
-msgstr "最小置信度:"
-
-msgid "Performance Settings"
-msgstr "性能设置"
-
-msgid "Timeout:"
-msgstr "超时:"
-
-msgid "Max frames:"
-msgstr "最大帧数:"
-
-msgid " seconds"
-msgstr " 秒"
-
-msgid "Logging"
-msgstr "日志记录"
-
-msgid "Log level:"
-msgstr "日志级别:"
-
-msgid "Enable logging"
-msgstr "启用日志记录"
-
-msgid "Save"
-msgstr "保存"
-
-msgid "Reload"
-msgstr "重新加载"
-
-msgid "Reset to Defaults"
-msgstr "重置为默认值"
-
-msgid "Error loading configuration: {error}"
-msgstr "加载配置错误: {error}"
-
-msgid "Are you sure you want to save this configuration?\nThis may require administrator privileges."
-msgstr "确定要保存此配置吗？\n这可能需要管理员权限。"
-
-msgid "Configuration saved successfully"
-msgstr "配置已成功保存"
-
+#: config_editor.py
 msgid "Are you sure you want to reset to default settings?"
 msgstr "确定要重置为默认设置吗？"
 
-msgid "👤 Face"
+#: pam_manager.py
+msgid "Authentication method"
+msgstr ""
+
+#: pam_manager.py
+#
+msgid "Cache recognition results"
+msgstr "需要面部识别"
+
+#: config_editor.py
+msgid "Camera Settings"
+msgstr "相机设置"
+
+#: window.py
+#
+msgid "Camera error"
+msgstr "相机:"
+
+#: face_enroll.py
+msgid "Camera is not active"
+msgstr "相机未激活"
+
+#: window.py
+#
+msgid "Camera not available"
+msgstr "相机未激活"
+
+#: window.py
+#
+msgid "Camera ready"
+msgstr "相机已停止"
+
+#: face_enroll.py
+msgid "Camera stopped"
+msgstr "相机已停止"
+
+#: face_enroll.py
+msgid "Camera:"
+msgstr "相机:"
+
+#: face_enroll.py
+msgid "Cannot open camera"
+msgstr "无法打开相机"
+
+#: face_enroll.py
+msgid "Capture {current}/{total}"
+msgstr ""
+
+#: pam_manager.py
+msgid "Configuration file (/etc/pam.d/linux-hello)"
+msgstr ""
+
+#: config_editor.py
+msgid "Configuration saved successfully"
+msgstr "配置已成功保存"
+
+#: config_editor.py, pam_manager.py
+msgid "Confirmation"
+msgstr "确认"
+
+#: config_editor.py
+msgid "Default camera index:"
+msgstr "默认相机索引:"
+
+#: window.py
+msgid "Diagnostics"
+msgstr ""
+
+#: config_editor.py
+msgid "Enable logging"
+msgstr "启用日志记录"
+
+#: face_enroll.py
+msgid "Enroll Face"
+msgstr "登记人脸"
+
+#: face_enroll.py
+msgid "Enrolling face for user: <b>{}</b>"
+msgstr ""
+
+#: window.py
+msgid "Enrolling..."
+msgstr ""
+
+#: config_editor.py, face_enroll.py, pam_manager.py
+msgid "Error"
+msgstr "错误"
+
+#: config_editor.py
+msgid "Error loading configuration: {error}"
+msgstr "加载配置错误: {error}"
+
+#: window.py
+msgid "Error removing profile"
+msgstr ""
+
+#: config_editor.py
+msgid "Error saving configuration: {error}"
+msgstr "保存配置错误: {error}"
+
+#: pam_manager.py
+msgid "Error: Permission denied to read PAM configuration"
+msgstr "错误：读取 PAM 配置的权限被拒绝"
+
+#: window.py, pam_manager.py
+msgid "Error: {error}"
+msgstr "错误：{error}"
+
+#: window.py
+#
+msgid "Face"
 msgstr "👤 人脸"
 
-msgid "🔐 PAM"
-msgstr "🔐 PAM"
+#: face_enroll.py
+msgid "Face Enrollment"
+msgstr "人脸登记"
 
-msgid "⚙️ Settings"
-msgstr "⚙️ 设置"
+#: window.py
+msgid "Face Registration"
+msgstr ""
+
+#: face_enroll.py
+#
+msgid "Face enrolled successfully with {count} photos"
+msgstr "已使用 {count} 张照片为 {username} 登记人脸"
+
+#: pam_manager.py
+msgid "Face must be recognized to authenticate (highest security)"
+msgstr ""
+
+#: pam_manager.py
+#
+msgid "Facial recognition + password fallback"
+msgstr "中等（面部识别+密码）"
+
+#: pam_manager.py
+#
+msgid "Facial recognition only"
+msgstr "需要面部识别"
+
+#: pam_manager.py
+#
+msgid ""
+"Failed to save PAM configuration:\n"
+"{error}"
+msgstr "保存配置错误: {error}"
+
+#: pam_manager.py
+msgid "Faster authentication within 5 minutes"
+msgstr ""
+
+#: pam_manager.py
+#
+msgid "Help"
+msgstr "&帮助"
+
+#: face_enroll.py
+msgid "Incomplete enrollment: {captured}/{total} photos captured"
+msgstr "登记不完整：已捕获 {captured}/{total} 张照片"
+
+#: window.py
+msgid "Initializing camera..."
+msgstr ""
+
+#: pam_manager.py
+#
+msgid "Invalid configuration"
+msgstr "保存配置"
+
+#: window.py
+#
+msgid "Linux Hello"
+msgstr "关于 Linux Hello"
+
+#: config_editor.py
+msgid "Linux Hello Settings"
+msgstr "Linux Hello 设置"
+
+#: config_editor.py
+msgid "Log level:"
+msgstr "日志级别:"
+
+#: config_editor.py
+msgid "Logging"
+msgstr "日志记录"
+
+#: config_editor.py
+msgid "Max frames:"
+msgstr "最大帧数:"
+
+#: config_editor.py
+msgid "Minimum confidence:"
+msgstr "最小置信度:"
+
+#: face_enroll.py
+msgid "Number of photos:"
+msgstr "照片数量:"
+
+#: pam_manager.py
+msgid "Operation timed out. No administrator password provided?"
+msgstr ""
+
+#: pam_manager.py
+msgid "Options"
+msgstr "选项"
+
+#: pam_manager.py
+msgid "PAM Configuration (Authentication)"
+msgstr "PAM 配置（身份验证）"
+
+#: pam_manager.py
+#
+msgid "PAM configuration file was not created."
+msgstr "# 找不到 PAM 配置"
+
+#: config_editor.py
+msgid "Performance Settings"
+msgstr "性能设置"
+
+#: window.py
+msgid "Profile removed"
+msgstr ""
+
+#: window.py
+msgid "Ready"
+msgstr "准备就绪"
+
+#: config_editor.py
+msgid "Recognition Settings"
+msgstr "识别设置"
+
+#: window.py, face_enroll.py
+msgid "Refresh"
+msgstr "刷新"
+
+#: window.py
+msgid "Register Face"
+msgstr ""
+
+#: config_editor.py, pam_manager.py
+msgid "Reload"
+msgstr "重新加载"
+
+#: window.py
+msgid "Remove"
+msgstr ""
+
+#: window.py
+msgid "Remove Profile"
+msgstr ""
+
+#: config_editor.py
+msgid "Reset to Defaults"
+msgstr "重置为默认值"
+
+#: window.py
+msgid "Running diagnostics..."
+msgstr ""
+
+#: config_editor.py
+msgid "Save"
+msgstr "保存"
+
+#: pam_manager.py
+msgid "Save changes"
+msgstr ""
+
+#: window.py
+msgid "Settings"
+msgstr "设置"
+
+#: config_editor.py
+msgid "Similarity threshold:"
+msgstr "相似度阈值:"
+
+#: face_enroll.py
+msgid "Start Camera"
+msgstr "启动相机"
+
+#: face_enroll.py
+msgid "Stop Camera"
+msgstr "停止相机"
+
+#: config_editor.py, face_enroll.py, pam_manager.py
+msgid "Success"
+msgstr "成功"
+
+#: window.py
+msgid "Test"
+msgstr ""
+
+#: window.py
+msgid "Testing recognition..."
+msgstr ""
+
+#: config_editor.py
+msgid "Timeout:"
+msgstr "超时:"
+
+#: pam_manager.py
+msgid "Use face first, or password if face not recognized"
+msgstr ""
+
+#: window.py
+#
+msgid "User"
+msgstr "用户名:"
+
+#: config_editor.py
+msgid "Video height:"
+msgstr "视频高度:"
+
+#: config_editor.py
+msgid "Video width:"
+msgstr "视频宽度:"
+
+#: config_editor.py
+#
+msgid "seconds"
+msgstr " 秒"
+
+#: window.py
+msgid "✓ All systems operational"
+msgstr ""
+
+#: window.py
+msgid "✓ Face recognized!"
+msgstr ""
+
+#: window.py
+msgid "✓ Face registered successfully!"
+msgstr ""
+
+#: window.py
+#
+msgid "✗ Enrollment failed"
+msgstr "人脸登记"
+
+#: window.py
+msgid "✗ Face not recognized"
+msgstr ""
+
+#: window.py
+msgid "✗ Some issues detected"
+msgstr ""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

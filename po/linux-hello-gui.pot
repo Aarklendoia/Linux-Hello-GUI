@@ -1,255 +1,354 @@
-# Translation template for Linux Hello GUI
+# Linux Hello GUI Translation Template
 # Copyright (C) 2025 Linux Hello Contributors
+# This file is distributed under the same license as the linux-hello-gui package.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: linux-hello-gui 1.0.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-23 15:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
-# Main Window
-msgid "Linux Hello – Configuration"
+#: pam_manager.py
+msgid "# PAM configuration not found. Use presets to create it."
 msgstr ""
 
-msgid "Ready"
-msgstr ""
-
-msgid "&File"
-msgstr ""
-
-msgid "&Settings"
-msgstr ""
-
-msgid "&Quit"
-msgstr ""
-
-msgid "&Language"
-msgstr ""
-
-msgid "&Help"
-msgstr ""
-
-msgid "&About"
-msgstr ""
-
-msgid "About &Qt"
-msgstr ""
-
-msgid "Language Changed"
-msgstr ""
-
-msgid "Please restart the application for language changes to take effect."
-msgstr ""
-
-msgid "Settings"
-msgstr ""
-
-msgid "Settings can be modified in the Settings tab."
-msgstr ""
-
-msgid "About Linux Hello"
-msgstr ""
-
-msgid "Linux Hello – Configuration\nVersion 1.0.0\n\nGraphical interface to configure the Linux Hello facial recognition service.\n\n© Linux Hello Contributors"
-msgstr ""
-
-# Face Enrollment
-msgid "Face Enrollment"
-msgstr ""
-
-msgid "Camera:"
-msgstr ""
-
-msgid "Refresh"
-msgstr ""
-
-msgid "Press 'Start Camera' to see preview"
-msgstr ""
-
-msgid "Username:"
-msgstr ""
-
-msgid "Ex: john.doe"
-msgstr ""
-
-msgid "Number of photos:"
-msgstr ""
-
-msgid "Start Camera"
-msgstr ""
-
-msgid "Stop Camera"
-msgstr ""
-
-msgid "Enroll Face"
-msgstr ""
-
-msgid "Error"
-msgstr ""
-
-msgid "Cannot open camera"
-msgstr ""
-
-msgid "Camera stopped"
-msgstr ""
-
-msgid "Please enter a username"
-msgstr ""
-
-msgid "Camera is not active"
-msgstr ""
-
-msgid "Success"
-msgstr ""
-
-msgid "Face for {username} enrolled with {count} photos"
-msgstr ""
-
-msgid "Incomplete enrollment: {captured}/{total} photos captured"
-msgstr ""
-
-# PAM Manager
-msgid "PAM Configuration (Authentication)"
-msgstr ""
-
-msgid "PAM (Pluggable Authentication Modules) allows using facial recognition for system authentication."
-msgstr ""
-
-msgid "PAM Configuration"
-msgstr ""
-
-msgid "Preset configuration:"
-msgstr ""
-
-msgid "Strict (facial recognition required)"
-msgstr ""
-
-msgid "Medium (facial recognition + password)"
-msgstr ""
-
-msgid "Permissive (facial recognition optional)"
-msgstr ""
-
-msgid "Apply"
-msgstr ""
-
-msgid "Options"
-msgstr ""
-
-msgid "Facial recognition required"
-msgstr ""
-
-msgid "Allow password as fallback"
-msgstr ""
-
-msgid "Cache results"
-msgstr ""
-
-msgid "Save Configuration"
-msgstr ""
-
-msgid "Reload from Disk"
-msgstr ""
-
-msgid "# PAM configuration not found"
-msgstr ""
-
-msgid "Error: Permission denied to read PAM configuration"
-msgstr ""
-
-msgid "Error: {error}"
-msgstr ""
-
-msgid "Confirmation"
-msgstr ""
-
-msgid "Are you sure you want to modify the PAM configuration?\nThis requires administrator privileges."
-msgstr ""
-
-msgid "PAM configuration saved successfully"
-msgstr ""
-
-msgid "Error saving configuration: {error}"
-msgstr ""
-
-# Config Editor
-msgid "Linux Hello Settings"
-msgstr ""
-
-msgid "Camera Settings"
-msgstr ""
-
-msgid "Default camera index:"
-msgstr ""
-
-msgid "Video width:"
-msgstr ""
-
-msgid "Video height:"
-msgstr ""
-
-msgid "Recognition Settings"
-msgstr ""
-
-msgid "Similarity threshold:"
-msgstr ""
-
-msgid "Minimum confidence:"
-msgstr ""
-
-msgid "Performance Settings"
-msgstr ""
-
-msgid "Timeout:"
-msgstr ""
-
-msgid "Max frames:"
-msgstr ""
-
-msgid " seconds"
-msgstr ""
-
-msgid "Logging"
-msgstr ""
-
-msgid "Log level:"
-msgstr ""
-
-msgid "Enable logging"
-msgstr ""
-
-msgid "Save"
-msgstr ""
-
-msgid "Reload"
-msgstr ""
-
-msgid "Reset to Defaults"
-msgstr ""
-
-msgid "Error loading configuration: {error}"
-msgstr ""
-
-msgid "Are you sure you want to save this configuration?\nThis may require administrator privileges."
-msgstr ""
-
-msgid "Configuration saved successfully"
-msgstr ""
-
-msgid "Error saving configuration: {error}"
-msgstr ""
-
+#: config_editor.py
 msgid "Are you sure you want to reset to default settings?"
 msgstr ""
 
-# Face Enrollment Tab
-msgid "👤 Face"
+#: pam_manager.py
+msgid "Authentication method"
 msgstr ""
 
-# PAM Tab
-msgid "🔐 PAM"
+#: pam_manager.py
+msgid "Cache recognition results"
 msgstr ""
 
-# Settings Tab
-msgid "⚙️ Settings"
+#: config_editor.py
+msgid "Camera Settings"
 msgstr ""
+
+#: window.py
+msgid "Camera error"
+msgstr ""
+
+#: face_enroll.py
+msgid "Camera is not active"
+msgstr ""
+
+#: window.py
+msgid "Camera not available"
+msgstr ""
+
+#: window.py
+msgid "Camera ready"
+msgstr ""
+
+#: face_enroll.py
+msgid "Camera stopped"
+msgstr ""
+
+#: face_enroll.py
+msgid "Camera:"
+msgstr ""
+
+#: face_enroll.py
+msgid "Cannot open camera"
+msgstr ""
+
+#: face_enroll.py
+msgid "Capture {current}/{total}"
+msgstr ""
+
+#: pam_manager.py
+msgid "Configuration file (/etc/pam.d/linux-hello)"
+msgstr ""
+
+#: config_editor.py
+msgid "Configuration saved successfully"
+msgstr ""
+
+#: config_editor.py, pam_manager.py
+msgid "Confirmation"
+msgstr ""
+
+#: config_editor.py
+msgid "Default camera index:"
+msgstr ""
+
+#: window.py
+msgid "Diagnostics"
+msgstr ""
+
+#: config_editor.py
+msgid "Enable logging"
+msgstr ""
+
+#: face_enroll.py
+msgid "Enroll Face"
+msgstr ""
+
+#: face_enroll.py
+msgid "Enrolling face for user: <b>{}</b>"
+msgstr ""
+
+#: window.py
+msgid "Enrolling..."
+msgstr ""
+
+#: config_editor.py, face_enroll.py, pam_manager.py
+msgid "Error"
+msgstr ""
+
+#: config_editor.py
+msgid "Error loading configuration: {error}"
+msgstr ""
+
+#: window.py
+msgid "Error removing profile"
+msgstr ""
+
+#: config_editor.py
+msgid "Error saving configuration: {error}"
+msgstr ""
+
+#: pam_manager.py
+msgid "Error: Permission denied to read PAM configuration"
+msgstr ""
+
+#: window.py, pam_manager.py
+msgid "Error: {error}"
+msgstr ""
+
+#: window.py
+msgid "Face"
+msgstr ""
+
+#: face_enroll.py
+msgid "Face Enrollment"
+msgstr ""
+
+#: window.py
+msgid "Face Registration"
+msgstr ""
+
+#: face_enroll.py
+msgid "Face enrolled successfully with {count} photos"
+msgstr ""
+
+#: pam_manager.py
+msgid "Face must be recognized to authenticate (highest security)"
+msgstr ""
+
+#: pam_manager.py
+msgid "Facial recognition + password fallback"
+msgstr ""
+
+#: pam_manager.py
+msgid "Facial recognition only"
+msgstr ""
+
+#: pam_manager.py
+msgid "Failed to save PAM configuration:\n{error}"
+msgstr ""
+
+#: pam_manager.py
+msgid "Faster authentication within 5 minutes"
+msgstr ""
+
+#: pam_manager.py
+msgid "Help"
+msgstr ""
+
+#: face_enroll.py
+msgid "Incomplete enrollment: {captured}/{total} photos captured"
+msgstr ""
+
+#: window.py
+msgid "Initializing camera..."
+msgstr ""
+
+#: pam_manager.py
+msgid "Invalid configuration"
+msgstr ""
+
+#: window.py
+msgid "Linux Hello"
+msgstr ""
+
+#: config_editor.py
+msgid "Linux Hello Settings"
+msgstr ""
+
+#: config_editor.py
+msgid "Log level:"
+msgstr ""
+
+#: config_editor.py
+msgid "Logging"
+msgstr ""
+
+#: config_editor.py
+msgid "Max frames:"
+msgstr ""
+
+#: config_editor.py
+msgid "Minimum confidence:"
+msgstr ""
+
+#: face_enroll.py
+msgid "Number of photos:"
+msgstr ""
+
+#: pam_manager.py
+msgid "Operation timed out. No administrator password provided?"
+msgstr ""
+
+#: pam_manager.py
+msgid "Options"
+msgstr ""
+
+#: pam_manager.py
+msgid "PAM Configuration (Authentication)"
+msgstr ""
+
+#: pam_manager.py
+msgid "PAM configuration file was not created."
+msgstr ""
+
+#: config_editor.py
+msgid "Performance Settings"
+msgstr ""
+
+#: window.py
+msgid "Profile removed"
+msgstr ""
+
+#: window.py
+msgid "Ready"
+msgstr ""
+
+#: config_editor.py
+msgid "Recognition Settings"
+msgstr ""
+
+#: window.py, face_enroll.py
+msgid "Refresh"
+msgstr ""
+
+#: window.py
+msgid "Register Face"
+msgstr ""
+
+#: config_editor.py, pam_manager.py
+msgid "Reload"
+msgstr ""
+
+#: window.py
+msgid "Remove"
+msgstr ""
+
+#: window.py
+msgid "Remove Profile"
+msgstr ""
+
+#: config_editor.py
+msgid "Reset to Defaults"
+msgstr ""
+
+#: window.py
+msgid "Running diagnostics..."
+msgstr ""
+
+#: config_editor.py
+msgid "Save"
+msgstr ""
+
+#: pam_manager.py
+msgid "Save changes"
+msgstr ""
+
+#: window.py
+msgid "Settings"
+msgstr ""
+
+#: config_editor.py
+msgid "Similarity threshold:"
+msgstr ""
+
+#: face_enroll.py
+msgid "Start Camera"
+msgstr ""
+
+#: face_enroll.py
+msgid "Stop Camera"
+msgstr ""
+
+#: config_editor.py, face_enroll.py, pam_manager.py
+msgid "Success"
+msgstr ""
+
+#: window.py
+msgid "Test"
+msgstr ""
+
+#: window.py
+msgid "Testing recognition..."
+msgstr ""
+
+#: config_editor.py
+msgid "Timeout:"
+msgstr ""
+
+#: pam_manager.py
+msgid "Use face first, or password if face not recognized"
+msgstr ""
+
+#: window.py
+msgid "User"
+msgstr ""
+
+#: config_editor.py
+msgid "Video height:"
+msgstr ""
+
+#: config_editor.py
+msgid "Video width:"
+msgstr ""
+
+#: config_editor.py
+msgid "seconds"
+msgstr ""
+
+#: window.py
+msgid "✓ All systems operational"
+msgstr ""
+
+#: window.py
+msgid "✓ Face recognized!"
+msgstr ""
+
+#: window.py
+msgid "✓ Face registered successfully!"
+msgstr ""
+
+#: window.py
+msgid "✗ Enrollment failed"
+msgstr ""
+
+#: window.py
+msgid "✗ Face not recognized"
+msgstr ""
+
+#: window.py
+msgid "✗ Some issues detected"
+msgstr ""
+
