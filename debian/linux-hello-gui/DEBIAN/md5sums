@@ -21,7 +21,7 @@ f2e68aa5b5b9029ac7beade2d36c07df  usr/lib/python3/dist-packages/linux_hello_gui/
 8c8f6ca3a81e16a869dd8809531f4b7f  usr/lib/python3/dist-packages/linux_hello_gui/locale/ru/LC_MESSAGES/linux-hello-gui.mo
 2b96b0209215ae8468d083a0c1729ab1  usr/lib/python3/dist-packages/linux_hello_gui/locale/zh_CN/LC_MESSAGES/linux-hello-gui.mo
 1a94e6e468d0622615b4b3a1d8f183a6  usr/lib/python3/dist-packages/linux_hello_gui/main.py
-70feee84a8e1636ac0750dae993298a3  usr/lib/python3/dist-packages/linux_hello_gui/pam_manager.py
+7adb463cd2f22fc05f3815debad57036  usr/lib/python3/dist-packages/linux_hello_gui/pam_manager.py
 39994aeed02d815bd268fe88cca564d0  usr/lib/python3/dist-packages/linux_hello_gui/sudo_helper.py
 435b08ac285c14bacfbf3982c2c4fd9c  usr/lib/python3/dist-packages/linux_hello_gui/window.py
 cc81f3b549786b0474d6386f33d6a83b  usr/share/applications/linux-hello-gui.desktop

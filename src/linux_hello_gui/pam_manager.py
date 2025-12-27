@@ -213,14 +213,14 @@ class PamManagerWidget(QWidget):
         # Generate PAM rules
         if face_only:
             # FACE-ONLY: face required, no password
-            lines.append("auth required pam_exec.so quiet /usr/lib/linux-hello/pam_linux_hello.py")
+            lines.append("auth required pam_exec.so quiet expose_authtok /usr/lib/linux-hello/pam_linux_hello.py")
             lines.append("auth required pam_deny.so")
             lines.append("account required pam_permit.so")
-            lines.append("password required pam_exec.so quiet /usr/lib/linux-hello/pam_linux_hello.py")
+            lines.append("password required pam_exec.so quiet expose_authtok /usr/lib/linux-hello/pam_linux_hello.py")
             lines.append("session required pam_permit.so")
         else:
             # FACE+PASSWORD: face sufficient (can skip password), but password as fallback
-            lines.append("auth sufficient pam_exec.so quiet /usr/lib/linux-hello/pam_linux_hello.py")
+            lines.append("auth sufficient pam_exec.so quiet expose_authtok /usr/lib/linux-hello/pam_linux_hello.py")
             lines.append("auth required pam_unix.so nullok try_first_pass")
             lines.append("account required pam_unix.so")
             lines.append("password required pam_unix.so sha512 shadow nullok try_first_pass use_authtok")
