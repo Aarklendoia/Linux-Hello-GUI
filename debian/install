@@ -1,1 +1,2 @@
 debian/linux-hello-gui.desktop usr/share/applications/
+icon.png usr/share/linux-hello-gui/

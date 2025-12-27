@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "# PAM configuration not found. Use presets to create it."
 msgstr "# Configuração PAM não encontrada"
 
@@ -20,10 +20,10 @@ msgstr "Tem certeza de que deseja redefinir para as configurações padrão?"
 
 #: pam_manager.py
 msgid "Authentication method"
-msgstr ""
+msgstr "Método de autenticação"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Cache recognition results"
 msgstr "Reconhecimento facial obrigatório"
 
@@ -32,7 +32,7 @@ msgid "Camera Settings"
 msgstr "Configurações da câmera"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera error"
 msgstr "Câmera:"
 
@@ -41,12 +41,12 @@ msgid "Camera is not active"
 msgstr "Câmera não está ativa"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera not available"
 msgstr "Câmera não está ativa"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera ready"
 msgstr "Câmera parada"
 
@@ -64,11 +64,11 @@ msgstr "Não é possível abrir a câmera"
 
 #: face_enroll.py
 msgid "Capture {current}/{total}"
-msgstr ""
+msgstr "Captura {current}/{total}"
 
 #: pam_manager.py
 msgid "Configuration file (/etc/pam.d/linux-hello)"
-msgstr ""
+msgstr "Arquivo de configuração (/etc/pam.d/linux-hello)"
 
 #: config_editor.py
 msgid "Configuration saved successfully"
@@ -84,7 +84,7 @@ msgstr "Índice de câmera padrão:"
 
 #: window.py
 msgid "Diagnostics"
-msgstr ""
+msgstr "Diagnóstico"
 
 #: config_editor.py
 msgid "Enable logging"
@@ -96,11 +96,11 @@ msgstr "Inscrever rosto"
 
 #: face_enroll.py
 msgid "Enrolling face for user: <b>{}</b>"
-msgstr ""
+msgstr "Registrando rosto para usuário: <b>{}</b>"
 
 #: window.py
 msgid "Enrolling..."
-msgstr ""
+msgstr "Registrando..."
 
 #: config_editor.py, face_enroll.py, pam_manager.py
 msgid "Error"
@@ -112,7 +112,7 @@ msgstr "Erro ao carregar configuração: {error}"
 
 #: window.py
 msgid "Error removing profile"
-msgstr ""
+msgstr "Erro ao remover perfil"
 
 #: config_editor.py
 msgid "Error saving configuration: {error}"
@@ -127,7 +127,7 @@ msgid "Error: {error}"
 msgstr "Erro: {error}"
 
 #: window.py
-#
+#, fuzzy
 msgid "Face"
 msgstr "👤 Rosto"
 
@@ -137,29 +137,29 @@ msgstr "Inscrição de rosto"
 
 #: window.py
 msgid "Face Registration"
-msgstr ""
+msgstr "Registro facial"
 
 #: face_enroll.py
-#
+#, fuzzy
 msgid "Face enrolled successfully with {count} photos"
 msgstr "Rosto de {username} inscrito com {count} fotos"
 
 #: pam_manager.py
 msgid "Face must be recognized to authenticate (highest security)"
-msgstr ""
+msgstr "O rosto deve ser reconhecido para autenticar (segurança máxima)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition + password fallback"
 msgstr "Médio (reconhecimento facial + senha)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition only"
 msgstr "Reconhecimento facial obrigatório"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid ""
 "Failed to save PAM configuration:\n"
 "{error}"
@@ -167,10 +167,10 @@ msgstr "Erro ao salvar configuração: {error}"
 
 #: pam_manager.py
 msgid "Faster authentication within 5 minutes"
-msgstr ""
+msgstr "Autenticação mais rápida em 5 minutos"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Help"
 msgstr "Aj&uda"
 
@@ -180,15 +180,15 @@ msgstr "Inscrição incompleta: {captured}/{total} fotos capturadas"
 
 #: window.py
 msgid "Initializing camera..."
-msgstr ""
+msgstr "Inicializando câmera..."
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Invalid configuration"
 msgstr "Salvar configuração"
 
 #: window.py
-#
+#, fuzzy
 msgid "Linux Hello"
 msgstr "Sobre o Linux Hello"
 
@@ -218,7 +218,7 @@ msgstr "Número de fotos:"
 
 #: pam_manager.py
 msgid "Operation timed out. No administrator password provided?"
-msgstr ""
+msgstr "A operação expirou. Nenhuma senha de administrador fornecida?"
 
 #: pam_manager.py
 msgid "Options"
@@ -229,7 +229,7 @@ msgid "PAM Configuration (Authentication)"
 msgstr "Configuração PAM (Autenticação)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "PAM configuration file was not created."
 msgstr "# Configuração PAM não encontrada"
 
@@ -239,7 +239,7 @@ msgstr "Configurações de desempenho"
 
 #: window.py
 msgid "Profile removed"
-msgstr ""
+msgstr "Perfil removido"
 
 #: window.py
 msgid "Ready"
@@ -255,7 +255,7 @@ msgstr "Atualizar"
 
 #: window.py
 msgid "Register Face"
-msgstr ""
+msgstr "✓ Inscrever rosto"
 
 #: config_editor.py, pam_manager.py
 msgid "Reload"
@@ -275,7 +275,7 @@ msgstr "Redefinir para padrões"
 
 #: window.py
 msgid "Running diagnostics..."
-msgstr ""
+msgstr "Executando diagnóstico..."
 
 #: config_editor.py
 msgid "Save"
@@ -322,7 +322,7 @@ msgid "Use face first, or password if face not recognized"
 msgstr ""
 
 #: window.py
-#
+#, fuzzy
 msgid "User"
 msgstr "Nome de usuário:"
 
@@ -335,59 +335,143 @@ msgid "Video width:"
 msgstr "Largura do vídeo:"
 
 #: config_editor.py
-#
+#, fuzzy
 msgid "seconds"
 msgstr " segundos"
 
 #: window.py
 msgid "✓ All systems operational"
-msgstr ""
+msgstr "✓ Todos os sistemas operacionais"
 
 #: window.py
 msgid "✓ Face recognized!"
-msgstr ""
+msgstr "✓ Rosto reconhecido!"
 
 #: window.py
 msgid "✓ Face registered successfully!"
-msgstr ""
+msgstr "✓ Rosto registrado com sucesso!"
 
 #: window.py
-#
+#, fuzzy
 msgid "✗ Enrollment failed"
 msgstr "Inscrição de rosto"
 
 #: window.py
 msgid "✗ Face not recognized"
-msgstr ""
+msgstr "✗ Rosto não reconhecido"
 
 #: window.py
 msgid "✗ Some issues detected"
-msgstr ""
+msgstr "✗ Alguns problemas detectados"
 
+#~ msgid "Linux Hello – Configuration"
+#~ msgstr "Linux Hello – Configuração"
 
+#~ msgid "&File"
+#~ msgstr "&Arquivo"
 
+#~ msgid "&Settings"
+#~ msgstr "&Configurações"
 
+#~ msgid "&Quit"
+#~ msgstr "&Sair"
 
+#~ msgid "&Language"
+#~ msgstr "&Idioma"
 
+#~ msgid "&About"
+#~ msgstr "&Sobre"
 
+#~ msgid "About &Qt"
+#~ msgstr "Sobre o &Qt"
 
+#~ msgid "Language Changed"
+#~ msgstr "Idioma alterado"
 
+#~ msgid "Please restart the application for language changes to take effect."
+#~ msgstr ""
+#~ "Por favor, reinicie o aplicativo para que as mudanças de idioma tenham "
+#~ "efeito."
 
+#~ msgid "Settings can be modified in the Settings tab."
+#~ msgstr "As configurações podem ser modificadas na aba Configurações."
 
+#~ msgid ""
+#~ "Linux Hello – Configuration\n"
+#~ "Version 1.0.0\n"
+#~ "\n"
+#~ "Graphical interface to configure the Linux Hello facial recognition "
+#~ "service.\n"
+#~ "\n"
+#~ "© Linux Hello Contributors"
+#~ msgstr ""
+#~ "Linux Hello – Configuração\n"
+#~ "Versão 1.0.0\n"
+#~ "\n"
+#~ "Interface gráfica para configurar o serviço de reconhecimento facial "
+#~ "Linux Hello.\n"
+#~ "\n"
+#~ "© Colaboradores do Linux Hello"
 
+#~ msgid "Press 'Start Camera' to see preview"
+#~ msgstr "Pressione Iniciar câmera para ver a visualização"
 
+#~ msgid "Ex: john.doe"
+#~ msgstr "Ex: john.doe"
 
+#~ msgid "Please enter a username"
+#~ msgstr "Por favor, insira um nome de usuário"
 
+#~ msgid ""
+#~ "PAM (Pluggable Authentication Modules) allows using facial recognition "
+#~ "for system authentication."
+#~ msgstr ""
+#~ "PAM (Módulos de Autenticação Conectáveis) permite usar reconhecimento "
+#~ "facial para autenticação do sistema."
 
+#~ msgid "PAM Configuration"
+#~ msgstr "Configuração PAM"
 
+#~ msgid "Preset configuration:"
+#~ msgstr "Configuração predefinida:"
 
+#~ msgid "Strict (facial recognition required)"
+#~ msgstr "Rigoroso (reconhecimento facial obrigatório)"
 
+#~ msgid "Permissive (facial recognition optional)"
+#~ msgstr "Permissivo (reconhecimento facial opcional)"
 
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
 
+#~ msgid "Allow password as fallback"
+#~ msgstr "Permitir senha como fallback"
 
+#~ msgid "Cache results"
+#~ msgstr "Armazenar em cache resultados"
 
+#~ msgid "Reload from Disk"
+#~ msgstr "Recarregar do disco"
 
+#~ msgid ""
+#~ "Are you sure you want to modify the PAM configuration?\n"
+#~ "This requires administrator privileges."
+#~ msgstr ""
+#~ "Tem certeza de que deseja modificar a configuração PAM?\n"
+#~ "Isso requer privilégios de administrador."
 
+#~ msgid "PAM configuration saved successfully"
+#~ msgstr "Configuração PAM salva com sucesso"
 
+#~ msgid ""
+#~ "Are you sure you want to save this configuration?\n"
+#~ "This may require administrator privileges."
+#~ msgstr ""
+#~ "Tem certeza de que deseja salvar esta configuração?\n"
+#~ "Pode exigir privilégios de administrador."
 
+#~ msgid "🔐 PAM"
+#~ msgstr "🔐 PAM"
 
+#~ msgid "⚙️ Settings"
+#~ msgstr "⚙️ Configurações"

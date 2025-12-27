@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "# PAM configuration not found. Use presets to create it."
 msgstr "# PAM 構成が見つかりません"
 
@@ -20,10 +20,10 @@ msgstr "デフォルト設定にリセットしますか？"
 
 #: pam_manager.py
 msgid "Authentication method"
-msgstr ""
+msgstr "認証方法"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Cache recognition results"
 msgstr "顔認識が必須です"
 
@@ -32,7 +32,7 @@ msgid "Camera Settings"
 msgstr "カメラ設定"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera error"
 msgstr "カメラ:"
 
@@ -41,12 +41,12 @@ msgid "Camera is not active"
 msgstr "カメラが有効になっていません"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera not available"
 msgstr "カメラが有効になっていません"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera ready"
 msgstr "カメラが停止しました"
 
@@ -64,11 +64,11 @@ msgstr "カメラを開くことができません"
 
 #: face_enroll.py
 msgid "Capture {current}/{total}"
-msgstr ""
+msgstr "キャプチャ {current}/{total}"
 
 #: pam_manager.py
 msgid "Configuration file (/etc/pam.d/linux-hello)"
-msgstr ""
+msgstr "構成ファイル (/etc/pam.d/linux-hello)"
 
 #: config_editor.py
 msgid "Configuration saved successfully"
@@ -84,7 +84,7 @@ msgstr "デフォルトカメラインデックス:"
 
 #: window.py
 msgid "Diagnostics"
-msgstr ""
+msgstr "診断"
 
 #: config_editor.py
 msgid "Enable logging"
@@ -96,11 +96,11 @@ msgstr "顔を登録"
 
 #: face_enroll.py
 msgid "Enrolling face for user: <b>{}</b>"
-msgstr ""
+msgstr "ユーザーのフェイス登録: <b>{}</b>"
 
 #: window.py
 msgid "Enrolling..."
-msgstr ""
+msgstr "登録中..."
 
 #: config_editor.py, face_enroll.py, pam_manager.py
 msgid "Error"
@@ -112,7 +112,7 @@ msgstr "構成の読み込みエラー: {error}"
 
 #: window.py
 msgid "Error removing profile"
-msgstr ""
+msgstr "プロファイルの削除エラー"
 
 #: config_editor.py
 msgid "Error saving configuration: {error}"
@@ -127,7 +127,7 @@ msgid "Error: {error}"
 msgstr "エラー: {error}"
 
 #: window.py
-#
+#, fuzzy
 msgid "Face"
 msgstr "👤 顔"
 
@@ -137,29 +137,29 @@ msgstr "顔登録"
 
 #: window.py
 msgid "Face Registration"
-msgstr ""
+msgstr "顔登録"
 
 #: face_enroll.py
-#
+#, fuzzy
 msgid "Face enrolled successfully with {count} photos"
 msgstr "{username} のフェイスが {count} 枚の写真に登録されました"
 
 #: pam_manager.py
 msgid "Face must be recognized to authenticate (highest security)"
-msgstr ""
+msgstr "認証するには顔が認識される必要があります (最高のセキュリティ)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition + password fallback"
 msgstr "中（顔認識+パスワード）"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition only"
 msgstr "顔認識が必須です"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid ""
 "Failed to save PAM configuration:\n"
 "{error}"
@@ -167,10 +167,10 @@ msgstr "構成の保存エラー: {error}"
 
 #: pam_manager.py
 msgid "Faster authentication within 5 minutes"
-msgstr ""
+msgstr "5分以内のより高速な認証"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Help"
 msgstr "&ヘルプ"
 
@@ -180,15 +180,15 @@ msgstr "登録が不完全です: {captured}/{total} 枚の写真がキャプチ
 
 #: window.py
 msgid "Initializing camera..."
-msgstr ""
+msgstr "カメラを初期化中..."
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Invalid configuration"
 msgstr "構成を保存"
 
 #: window.py
-#
+#, fuzzy
 msgid "Linux Hello"
 msgstr "Linux Hello について"
 
@@ -218,7 +218,7 @@ msgstr "写真の枚数:"
 
 #: pam_manager.py
 msgid "Operation timed out. No administrator password provided?"
-msgstr ""
+msgstr "操作がタイムアウトしました。管理者パスワードが指定されていません。"
 
 #: pam_manager.py
 msgid "Options"
@@ -229,7 +229,7 @@ msgid "PAM Configuration (Authentication)"
 msgstr "PAM 構成 (認証)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "PAM configuration file was not created."
 msgstr "# PAM 構成が見つかりません"
 
@@ -239,7 +239,7 @@ msgstr "パフォーマンス設定"
 
 #: window.py
 msgid "Profile removed"
-msgstr ""
+msgstr "プロファイルを削除しました"
 
 #: window.py
 msgid "Ready"
@@ -255,7 +255,7 @@ msgstr "更新"
 
 #: window.py
 msgid "Register Face"
-msgstr ""
+msgstr "✓ 顔を登録"
 
 #: config_editor.py, pam_manager.py
 msgid "Reload"
@@ -275,7 +275,7 @@ msgstr "デフォルトにリセット"
 
 #: window.py
 msgid "Running diagnostics..."
-msgstr ""
+msgstr "診断を実行中..."
 
 #: config_editor.py
 msgid "Save"
@@ -322,7 +322,7 @@ msgid "Use face first, or password if face not recognized"
 msgstr ""
 
 #: window.py
-#
+#, fuzzy
 msgid "User"
 msgstr "ユーザー名:"
 
@@ -335,59 +335,141 @@ msgid "Video width:"
 msgstr "ビデオ幅:"
 
 #: config_editor.py
-#
+#, fuzzy
 msgid "seconds"
 msgstr " 秒"
 
 #: window.py
 msgid "✓ All systems operational"
-msgstr ""
+msgstr "✓ すべてのシステムが動作しています"
 
 #: window.py
 msgid "✓ Face recognized!"
-msgstr ""
+msgstr "✓ 顔が認識されました!"
 
 #: window.py
 msgid "✓ Face registered successfully!"
-msgstr ""
+msgstr "✓ 顔が正常に登録されました!"
 
 #: window.py
-#
+#, fuzzy
 msgid "✗ Enrollment failed"
 msgstr "顔登録"
 
 #: window.py
 msgid "✗ Face not recognized"
-msgstr ""
+msgstr "✗ 顔が認識されませんでした"
 
 #: window.py
 msgid "✗ Some issues detected"
-msgstr ""
+msgstr "✗ いくつかの問題が検出されました"
 
+#~ msgid "Linux Hello – Configuration"
+#~ msgstr "Linux Hello – 設定"
 
+#~ msgid "&File"
+#~ msgstr "&ファイル"
 
+#~ msgid "&Settings"
+#~ msgstr "&設定"
 
+#~ msgid "&Quit"
+#~ msgstr "&終了"
 
+#~ msgid "&Language"
+#~ msgstr "&言語"
 
+#~ msgid "&About"
+#~ msgstr "&について"
 
+#~ msgid "About &Qt"
+#~ msgstr "&Qt について"
 
+#~ msgid "Language Changed"
+#~ msgstr "言語が変更されました"
 
+#~ msgid "Please restart the application for language changes to take effect."
+#~ msgstr "言語の変更を有効にするには、アプリケーションを再起動してください。"
 
+#~ msgid "Settings can be modified in the Settings tab."
+#~ msgstr "設定はタブで変更できます。"
 
+#~ msgid ""
+#~ "Linux Hello – Configuration\n"
+#~ "Version 1.0.0\n"
+#~ "\n"
+#~ "Graphical interface to configure the Linux Hello facial recognition "
+#~ "service.\n"
+#~ "\n"
+#~ "© Linux Hello Contributors"
+#~ msgstr ""
+#~ "Linux Hello – 設定\n"
+#~ "バージョン 1.0.0\n"
+#~ "\n"
+#~ "Linux Hello 顔認識サービスを設定するためのグラフィカル インターフェイ"
+#~ "ス。\n"
+#~ "\n"
+#~ "© Linux Hello 貢献者"
 
+#~ msgid "Press 'Start Camera' to see preview"
+#~ msgstr "カメラを開始を押してプレビューを表示します"
 
+#~ msgid "Ex: john.doe"
+#~ msgstr "例: john.doe"
 
+#~ msgid "Please enter a username"
+#~ msgstr "ユーザー名を入力してください"
 
+#~ msgid ""
+#~ "PAM (Pluggable Authentication Modules) allows using facial recognition "
+#~ "for system authentication."
+#~ msgstr ""
+#~ "PAM（プラグイン可能な認証モジュール）により、顔認識をシステム認証に使用で"
+#~ "きます。"
 
+#~ msgid "PAM Configuration"
+#~ msgstr "PAM 構成"
 
+#~ msgid "Preset configuration:"
+#~ msgstr "プリセット構成:"
 
+#~ msgid "Strict (facial recognition required)"
+#~ msgstr "厳密（顔認識が必須）"
 
+#~ msgid "Permissive (facial recognition optional)"
+#~ msgstr "許可的（顔認識はオプション）"
 
+#~ msgid "Apply"
+#~ msgstr "適用"
 
+#~ msgid "Allow password as fallback"
+#~ msgstr "パスワードをフォールバックとして許可"
 
+#~ msgid "Cache results"
+#~ msgstr "キャッシュ結果"
 
+#~ msgid "Reload from Disk"
+#~ msgstr "ディスクから再度読み込み"
 
+#~ msgid ""
+#~ "Are you sure you want to modify the PAM configuration?\n"
+#~ "This requires administrator privileges."
+#~ msgstr ""
+#~ "PAM 構成を変更しますか？\n"
+#~ "これには管理者権限が必要です。"
 
+#~ msgid "PAM configuration saved successfully"
+#~ msgstr "PAM 構成が正常に保存されました"
 
+#~ msgid ""
+#~ "Are you sure you want to save this configuration?\n"
+#~ "This may require administrator privileges."
+#~ msgstr ""
+#~ "この構成を保存しますか？\n"
+#~ "これには管理者権限が必要な場合があります。"
 
+#~ msgid "🔐 PAM"
+#~ msgstr "🔐 PAM"
 
+#~ msgid "⚙️ Settings"
+#~ msgstr "⚙️ 設定"

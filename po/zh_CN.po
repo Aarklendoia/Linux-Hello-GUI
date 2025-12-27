@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "# PAM configuration not found. Use presets to create it."
 msgstr "# 找不到 PAM 配置"
 
@@ -20,10 +20,10 @@ msgstr "确定要重置为默认设置吗？"
 
 #: pam_manager.py
 msgid "Authentication method"
-msgstr ""
+msgstr "身份验证方法"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Cache recognition results"
 msgstr "需要面部识别"
 
@@ -32,7 +32,7 @@ msgid "Camera Settings"
 msgstr "相机设置"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera error"
 msgstr "相机:"
 
@@ -41,12 +41,12 @@ msgid "Camera is not active"
 msgstr "相机未激活"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera not available"
 msgstr "相机未激活"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera ready"
 msgstr "相机已停止"
 
@@ -64,11 +64,11 @@ msgstr "无法打开相机"
 
 #: face_enroll.py
 msgid "Capture {current}/{total}"
-msgstr ""
+msgstr "捕获 {current}/{total}"
 
 #: pam_manager.py
 msgid "Configuration file (/etc/pam.d/linux-hello)"
-msgstr ""
+msgstr "配置文件 (/etc/pam.d/linux-hello)"
 
 #: config_editor.py
 msgid "Configuration saved successfully"
@@ -84,7 +84,7 @@ msgstr "默认相机索引:"
 
 #: window.py
 msgid "Diagnostics"
-msgstr ""
+msgstr "诊断"
 
 #: config_editor.py
 msgid "Enable logging"
@@ -96,11 +96,11 @@ msgstr "登记人脸"
 
 #: face_enroll.py
 msgid "Enrolling face for user: <b>{}</b>"
-msgstr ""
+msgstr "为用户登记人脸: <b>{}</b>"
 
 #: window.py
 msgid "Enrolling..."
-msgstr ""
+msgstr "正在登记..."
 
 #: config_editor.py, face_enroll.py, pam_manager.py
 msgid "Error"
@@ -112,7 +112,7 @@ msgstr "加载配置错误: {error}"
 
 #: window.py
 msgid "Error removing profile"
-msgstr ""
+msgstr "删除个人资料出错"
 
 #: config_editor.py
 msgid "Error saving configuration: {error}"
@@ -127,7 +127,7 @@ msgid "Error: {error}"
 msgstr "错误：{error}"
 
 #: window.py
-#
+#, fuzzy
 msgid "Face"
 msgstr "👤 人脸"
 
@@ -137,29 +137,29 @@ msgstr "人脸登记"
 
 #: window.py
 msgid "Face Registration"
-msgstr ""
+msgstr "人脸登记"
 
 #: face_enroll.py
-#
+#, fuzzy
 msgid "Face enrolled successfully with {count} photos"
 msgstr "已使用 {count} 张照片为 {username} 登记人脸"
 
 #: pam_manager.py
 msgid "Face must be recognized to authenticate (highest security)"
-msgstr ""
+msgstr "必须识别人脸才能进行身份验证(最高安全)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition + password fallback"
 msgstr "中等（面部识别+密码）"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition only"
 msgstr "需要面部识别"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid ""
 "Failed to save PAM configuration:\n"
 "{error}"
@@ -167,10 +167,10 @@ msgstr "保存配置错误: {error}"
 
 #: pam_manager.py
 msgid "Faster authentication within 5 minutes"
-msgstr ""
+msgstr "5分钟内更快的身份验证"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Help"
 msgstr "&帮助"
 
@@ -180,15 +180,15 @@ msgstr "登记不完整：已捕获 {captured}/{total} 张照片"
 
 #: window.py
 msgid "Initializing camera..."
-msgstr ""
+msgstr "正在初始化相机..."
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Invalid configuration"
 msgstr "保存配置"
 
 #: window.py
-#
+#, fuzzy
 msgid "Linux Hello"
 msgstr "关于 Linux Hello"
 
@@ -218,7 +218,7 @@ msgstr "照片数量:"
 
 #: pam_manager.py
 msgid "Operation timed out. No administrator password provided?"
-msgstr ""
+msgstr "操作超时。未提供管理员密码?"
 
 #: pam_manager.py
 msgid "Options"
@@ -229,7 +229,7 @@ msgid "PAM Configuration (Authentication)"
 msgstr "PAM 配置（身份验证）"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "PAM configuration file was not created."
 msgstr "# 找不到 PAM 配置"
 
@@ -239,7 +239,7 @@ msgstr "性能设置"
 
 #: window.py
 msgid "Profile removed"
-msgstr ""
+msgstr "个人资料已删除"
 
 #: window.py
 msgid "Ready"
@@ -255,7 +255,7 @@ msgstr "刷新"
 
 #: window.py
 msgid "Register Face"
-msgstr ""
+msgstr "✓ 登记人脸"
 
 #: config_editor.py, pam_manager.py
 msgid "Reload"
@@ -275,7 +275,7 @@ msgstr "重置为默认值"
 
 #: window.py
 msgid "Running diagnostics..."
-msgstr ""
+msgstr "正在运行诊断..."
 
 #: config_editor.py
 msgid "Save"
@@ -322,7 +322,7 @@ msgid "Use face first, or password if face not recognized"
 msgstr ""
 
 #: window.py
-#
+#, fuzzy
 msgid "User"
 msgstr "用户名:"
 
@@ -335,59 +335,138 @@ msgid "Video width:"
 msgstr "视频宽度:"
 
 #: config_editor.py
-#
+#, fuzzy
 msgid "seconds"
 msgstr " 秒"
 
 #: window.py
 msgid "✓ All systems operational"
-msgstr ""
+msgstr "✓ 所有系统都正常运行"
 
 #: window.py
 msgid "✓ Face recognized!"
-msgstr ""
+msgstr "✓ 人脸已识别!"
 
 #: window.py
 msgid "✓ Face registered successfully!"
-msgstr ""
+msgstr "✓ 人脸已成功登记!"
 
 #: window.py
-#
+#, fuzzy
 msgid "✗ Enrollment failed"
 msgstr "人脸登记"
 
 #: window.py
 msgid "✗ Face not recognized"
-msgstr ""
+msgstr "✗ 人脸未被识别"
 
 #: window.py
 msgid "✗ Some issues detected"
-msgstr ""
+msgstr "✗ 检测到一些问题"
 
+#~ msgid "Linux Hello – Configuration"
+#~ msgstr "Linux Hello – 配置"
 
+#~ msgid "&File"
+#~ msgstr "&文件"
 
+#~ msgid "&Settings"
+#~ msgstr "&设置"
 
+#~ msgid "&Quit"
+#~ msgstr "&退出"
 
+#~ msgid "&Language"
+#~ msgstr "&语言"
 
+#~ msgid "&About"
+#~ msgstr "&关于"
 
+#~ msgid "About &Qt"
+#~ msgstr "关于 &Qt"
 
+#~ msgid "Language Changed"
+#~ msgstr "语言已更改"
 
+#~ msgid "Please restart the application for language changes to take effect."
+#~ msgstr "请重新启动应用程序以使语言更改生效。"
 
+#~ msgid "Settings can be modified in the Settings tab."
+#~ msgstr "可以在选项卡中修改设置。"
 
+#~ msgid ""
+#~ "Linux Hello – Configuration\n"
+#~ "Version 1.0.0\n"
+#~ "\n"
+#~ "Graphical interface to configure the Linux Hello facial recognition "
+#~ "service.\n"
+#~ "\n"
+#~ "© Linux Hello Contributors"
+#~ msgstr ""
+#~ "Linux Hello – 配置\n"
+#~ "版本 1.0.0\n"
+#~ "\n"
+#~ "用于配置 Linux Hello 面部识别服务的图形界面。\n"
+#~ "\n"
+#~ "© Linux Hello 贡献者"
 
+#~ msgid "Press 'Start Camera' to see preview"
+#~ msgstr "按启动相机查看预览"
 
+#~ msgid "Ex: john.doe"
+#~ msgstr "例: john.doe"
 
+#~ msgid "Please enter a username"
+#~ msgstr "请输入用户名"
 
+#~ msgid ""
+#~ "PAM (Pluggable Authentication Modules) allows using facial recognition "
+#~ "for system authentication."
+#~ msgstr "PAM（可插拔身份验证模块）允许为系统身份验证使用面部识别。"
 
+#~ msgid "PAM Configuration"
+#~ msgstr "PAM 配置"
 
+#~ msgid "Preset configuration:"
+#~ msgstr "预设配置:"
 
+#~ msgid "Strict (facial recognition required)"
+#~ msgstr "严格（需要面部识别）"
 
+#~ msgid "Permissive (facial recognition optional)"
+#~ msgstr "宽松（面部识别可选）"
 
+#~ msgid "Apply"
+#~ msgstr "应用"
 
+#~ msgid "Allow password as fallback"
+#~ msgstr "允许密码作为备用"
 
+#~ msgid "Cache results"
+#~ msgstr "缓存结果"
 
+#~ msgid "Reload from Disk"
+#~ msgstr "从磁盘重新加载"
 
+#~ msgid ""
+#~ "Are you sure you want to modify the PAM configuration?\n"
+#~ "This requires administrator privileges."
+#~ msgstr ""
+#~ "确定要修改 PAM 配置吗？\n"
+#~ "这需要管理员权限。"
 
+#~ msgid "PAM configuration saved successfully"
+#~ msgstr "PAM 配置已成功保存"
 
+#~ msgid ""
+#~ "Are you sure you want to save this configuration?\n"
+#~ "This may require administrator privileges."
+#~ msgstr ""
+#~ "确定要保存此配置吗？\n"
+#~ "这可能需要管理员权限。"
 
+#~ msgid "🔐 PAM"
+#~ msgstr "🔐 PAM"
 
+#~ msgid "⚙️ Settings"
+#~ msgstr "⚙️ 设置"

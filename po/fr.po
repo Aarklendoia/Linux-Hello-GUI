@@ -12,7 +12,7 @@ msgstr ""
 #: pam_manager.py
 #
 msgid "# PAM configuration not found. Use presets to create it."
-msgstr "# Configuration PAM non trouvée"
+msgstr "# Configuration PAM non trouvée. Utilisez les présets pour la créer."
 
 #: config_editor.py
 msgid "Are you sure you want to reset to default settings?"
@@ -20,12 +20,12 @@ msgstr "Êtes-vous sûr de vouloir réinitialiser aux paramètres par défaut ?"
 
 #: pam_manager.py
 msgid "Authentication method"
-msgstr ""
+msgstr "Méthode d'authentification"
 
 #: pam_manager.py
 #
 msgid "Cache recognition results"
-msgstr "Reconnaissance faciale obligatoire"
+msgstr "Mettre en cache les résultats de reconnaissance"
 
 #: config_editor.py
 msgid "Camera Settings"
@@ -34,7 +34,7 @@ msgstr "Paramètres de la caméra"
 #: window.py
 #
 msgid "Camera error"
-msgstr "Caméra :"
+msgstr "Erreur de caméra"
 
 #: face_enroll.py
 msgid "Camera is not active"
@@ -43,12 +43,12 @@ msgstr "La caméra n'est pas active"
 #: window.py
 #
 msgid "Camera not available"
-msgstr "La caméra n'est pas active"
+msgstr "Caméra non disponible"
 
 #: window.py
 #
 msgid "Camera ready"
-msgstr "Caméra arrêtée"
+msgstr "Caméra prête"
 
 #: face_enroll.py
 msgid "Camera stopped"
@@ -64,11 +64,11 @@ msgstr "Impossible d'ouvrir la caméra"
 
 #: face_enroll.py
 msgid "Capture {current}/{total}"
-msgstr ""
+msgstr "Capture {current}/{total}"
 
 #: pam_manager.py
 msgid "Configuration file (/etc/pam.d/linux-hello)"
-msgstr ""
+msgstr "Fichier de configuration (/etc/pam.d/linux-hello)"
 
 #: config_editor.py
 msgid "Configuration saved successfully"
@@ -84,7 +84,7 @@ msgstr "Index de caméra par défaut :"
 
 #: window.py
 msgid "Diagnostics"
-msgstr "Diagnostics"
+msgstr "Diagnostique"
 
 #: config_editor.py
 msgid "Enable logging"
@@ -96,11 +96,11 @@ msgstr "Inscrire le visage"
 
 #: face_enroll.py
 msgid "Enrolling face for user: <b>{}</b>"
-msgstr ""
+msgstr "Inscription du visage pour l'utilisateur : <b>{}</b>"
 
 #: window.py
 msgid "Enrolling..."
-msgstr ""
+msgstr "Inscription en cours..."
 
 #: config_editor.py, face_enroll.py, pam_manager.py
 msgid "Error"
@@ -112,7 +112,7 @@ msgstr "Erreur lors du chargement de la configuration : {error}"
 
 #: window.py
 msgid "Error removing profile"
-msgstr ""
+msgstr "Erreur lors de la suppression du profil"
 
 #: config_editor.py
 msgid "Error saving configuration: {error}"
@@ -130,7 +130,7 @@ msgstr "Erreur : {error}"
 #: window.py
 #
 msgid "Face"
-msgstr "👤 Visage"
+msgstr "Visage"
 
 # Face Enrollment
 #: face_enroll.py
@@ -144,37 +144,39 @@ msgstr "Enregistrement facial"
 #: face_enroll.py
 #
 msgid "Face enrolled successfully with {count} photos"
-msgstr "Visage de {username} inscrit avec {count} photos"
+msgstr "Visage inscrit avec succès avec {count} photos"
 
 #: pam_manager.py
 msgid "Face must be recognized to authenticate (highest security)"
-msgstr ""
+msgstr "Le visage doit être reconnu pour s'authentifier (sécurité maximale)"
 
 #: pam_manager.py
 #
 msgid "Facial recognition + password fallback"
-msgstr "Moyenne (reconnaissance faciale + mot de passe)"
+msgstr "Reconnaissance faciale + secours par mot de passe"
 
 #: pam_manager.py
 #
 msgid "Facial recognition only"
-msgstr "Reconnaissance faciale obligatoire"
+msgstr "Reconnaissance faciale uniquement"
 
 #: pam_manager.py
 #
 msgid ""
 "Failed to save PAM configuration:\n"
 "{error}"
-msgstr "Erreur lors de l'enregistrement de la configuration : {error}"
+msgstr ""
+"Impossible d'enregistrer la configuration PAM :\n"
+"{error}"
 
 #: pam_manager.py
 msgid "Faster authentication within 5 minutes"
-msgstr ""
+msgstr "Authentification plus rapide pendant 5 minutes"
 
 #: pam_manager.py
 #
 msgid "Help"
-msgstr "Ai&de"
+msgstr "Aide"
 
 #: face_enroll.py
 msgid "Incomplete enrollment: {captured}/{total} photos captured"
@@ -182,17 +184,17 @@ msgstr "Inscription incomplète : {captured}/{total} photos capturées"
 
 #: window.py
 msgid "Initializing camera..."
-msgstr ""
+msgstr "Initialisation de la caméra..."
 
 #: pam_manager.py
 #
 msgid "Invalid configuration"
-msgstr "Enregistrer la configuration"
+msgstr "Configuration invalide"
 
 #: window.py
 #
 msgid "Linux Hello"
-msgstr "À propos de Linux Hello"
+msgstr "Linux Hello"
 
 # Config Editor
 #: config_editor.py
@@ -221,7 +223,7 @@ msgstr "Nombre de photos :"
 
 #: pam_manager.py
 msgid "Operation timed out. No administrator password provided?"
-msgstr ""
+msgstr "Opération expirée. Aucun mot de passe administrateur fourni ?"
 
 #: pam_manager.py
 msgid "Options"
@@ -235,7 +237,7 @@ msgstr "Configuration PAM (Authentification)"
 #: pam_manager.py
 #
 msgid "PAM configuration file was not created."
-msgstr "# Configuration PAM non trouvée"
+msgstr "Le fichier de configuration PAM n'a pas été créé."
 
 #: config_editor.py
 msgid "Performance Settings"
@@ -243,7 +245,7 @@ msgstr "Paramètres de performance"
 
 #: window.py
 msgid "Profile removed"
-msgstr ""
+msgstr "Profil supprimé"
 
 #: window.py
 msgid "Ready"
@@ -259,7 +261,7 @@ msgstr "Rafraîchir"
 
 #: window.py
 msgid "Register Face"
-msgstr ""
+msgstr "✓ Inscrire le visage"
 
 #: config_editor.py, pam_manager.py
 msgid "Reload"
@@ -271,7 +273,7 @@ msgstr "Supprimer"
 
 #: window.py
 msgid "Remove Profile"
-msgstr ""
+msgstr "Supprimer le profil"
 
 #: config_editor.py
 msgid "Reset to Defaults"
@@ -279,7 +281,7 @@ msgstr "Réinitialiser par défaut"
 
 #: window.py
 msgid "Running diagnostics..."
-msgstr ""
+msgstr "Exécution des diagnostics..."
 
 #: config_editor.py
 msgid "Save"
@@ -287,7 +289,7 @@ msgstr "Enregistrer"
 
 #: pam_manager.py
 msgid "Save changes"
-msgstr ""
+msgstr "Enregistrer les modifications"
 
 #: window.py
 msgid "Settings"
@@ -311,11 +313,11 @@ msgstr "Succès"
 
 #: window.py
 msgid "Test"
-msgstr "Test"
+msgstr "Tester"
 
 #: window.py
 msgid "Testing recognition..."
-msgstr ""
+msgstr "Test de reconnaissance en cours..."
 
 #: config_editor.py
 msgid "Timeout:"
@@ -323,12 +325,12 @@ msgstr "Délai d'expiration :"
 
 #: pam_manager.py
 msgid "Use face first, or password if face not recognized"
-msgstr ""
+msgstr "Utilisez d'abord le visage, ou le mot de passe si le visage n'est pas reconnu"
 
 #: window.py
 #
 msgid "User"
-msgstr "Nom d'utilisateur :"
+msgstr "Utilisateur"
 
 #: config_editor.py
 msgid "Video height:"
@@ -341,61 +343,30 @@ msgstr "Largeur vidéo :"
 #: config_editor.py
 #
 msgid "seconds"
-msgstr " secondes"
+msgstr "secondes"
 
 #: window.py
 msgid "✓ All systems operational"
-msgstr ""
+msgstr "✓ Tous les systèmes opérationnels"
 
 #: window.py
 msgid "✓ Face recognized!"
-msgstr ""
+msgstr "✓ Visage reconnu !"
 
 #: window.py
 msgid "✓ Face registered successfully!"
-msgstr ""
+msgstr "✓ Visage enregistré avec succès !"
 
 # Face Enrollment
 #: window.py
 #
 msgid "✗ Enrollment failed"
-msgstr "Inscription de Visage"
+msgstr "✗ Inscription échouée"
 
 #: window.py
 msgid "✗ Face not recognized"
-msgstr ""
+msgstr "✗ Visage non reconnu"
 
 #: window.py
 msgid "✗ Some issues detected"
-msgstr ""
-
-
-# Main Window
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# PAM Tab
-
-# Settings Tab
+msgstr "✗ Certains problèmes détectés"

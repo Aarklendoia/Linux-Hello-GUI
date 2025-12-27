@@ -9,6 +9,7 @@ from PySide6.QtCore import Qt, QProcess, QTimer
 import cv2
 import getpass
 import os
+from pathlib import Path
 from .pam_manager import PamManagerWidget
 from .i18n import _
 
@@ -19,7 +20,15 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle(_("Linux Hello"))
-        self.setWindowIcon(QIcon.fromTheme("face-recognition"))
+        
+        # Load application icon
+        icon = self._load_app_icon()
+        if icon:
+            self.setWindowIcon(icon)
+        else:
+            # Fallback to system theme icon
+            self.setWindowIcon(QIcon.fromTheme("face-recognition"))
+        
         self.resize(700, 600)
         
         self.cap = None
@@ -290,6 +299,29 @@ class MainWindow(QMainWindow):
         except Exception as e:
             self.statusBar().showMessage(_("Error: {error}").format(error=str(e)))
             self.start_camera()
+    
+    def _load_app_icon(self):
+        """Load application icon from various possible locations."""
+        icon_paths = [
+            # Development location
+            Path(__file__).parent.parent.parent / "icon.png",
+            # Installed location
+            Path("/usr/share/linux-hello-gui/icon.png"),
+            # Alternative installed location
+            Path("/usr/share/pixmaps/linux-hello-gui.png"),
+            # Current directory
+            Path("icon.png"),
+        ]
+        
+        for icon_path in icon_paths:
+            if icon_path.exists():
+                try:
+                    return QIcon(str(icon_path))
+                except Exception:
+                    continue
+        
+        # No icon found
+        return None
     
     def closeEvent(self, event):
         """Clean up when closing."""

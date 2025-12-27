@@ -26,18 +26,18 @@ DEFAULT_LANGUAGE = 'en'
 # and installed system (/usr/share/linux-hello-gui/locale)
 def _get_locale_dir():
     """Get locale directory path."""
-    # First try development directory
-    dev_locale = Path(__file__).parent / 'locale'
-    if dev_locale.exists():
-        return dev_locale
-    
-    # Then try system installation
+    # First try system installation
     system_locale = Path('/usr/share/linux-hello-gui/locale')
     if system_locale.exists():
         return system_locale
     
-    # Fallback to development
-    return dev_locale
+    # Then try development directory
+    dev_locale = Path(__file__).parent / 'locale'
+    if dev_locale.exists():
+        return dev_locale
+    
+    # Fallback to system location
+    return system_locale
 
 LOCALE_DIR = _get_locale_dir()
 
@@ -51,7 +51,12 @@ def setup_gettext(language=None):
     global _translation
     
     if language is None:
-        language = os.environ.get('LANGUAGE', DEFAULT_LANGUAGE).split(':')[0]
+        # Try LANGUAGE variable first, then LANG
+        language = os.environ.get('LANGUAGE', '').split(':')[0]
+        if not language:
+            # Extract language from LANG (e.g., 'fr_FR.UTF-8' -> 'fr')
+            lang_full = os.environ.get('LANG', DEFAULT_LANGUAGE)
+            language = lang_full.split('_')[0].split('.')[0]
     
     # Normalize language code
     if language not in SUPPORTED_LANGUAGES:

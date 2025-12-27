@@ -2,7 +2,7 @@ Package: linux-hello-gui
 Version: 1.0.0-1
 Architecture: all
 Maintainer: Édouard Biton <aarklendoia@proton.me>
-Installed-Size: 256
+Installed-Size: 1671
 Depends: linux-hello, python3 (>= 3.9), python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtwidgets, python3-opencv, python3:any
 Recommends: kde-plasma-desktop | xfce4 | gnome-shell, libpam-linux-hello
 Section: utils

@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "# PAM configuration not found. Use presets to create it."
 msgstr "# لم يتم العثور على تكوين PAM"
 
@@ -20,10 +20,10 @@ msgstr "هل أنت متأكد من أنك تريد إعادة تعيين الإ
 
 #: pam_manager.py
 msgid "Authentication method"
-msgstr ""
+msgstr "طريقة المصادقة"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Cache recognition results"
 msgstr "التعرف على الوجه مطلوب"
 
@@ -32,7 +32,7 @@ msgid "Camera Settings"
 msgstr "إعدادات الكاميرا"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera error"
 msgstr "الكاميرا:"
 
@@ -41,12 +41,12 @@ msgid "Camera is not active"
 msgstr "الكاميرا غير نشطة"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera not available"
 msgstr "الكاميرا غير نشطة"
 
 #: window.py
-#
+#, fuzzy
 msgid "Camera ready"
 msgstr "تم إيقاف الكاميرا"
 
@@ -64,11 +64,11 @@ msgstr "لا يمكن فتح الكاميرا"
 
 #: face_enroll.py
 msgid "Capture {current}/{total}"
-msgstr ""
+msgstr "التقاط {current}/{total}"
 
 #: pam_manager.py
 msgid "Configuration file (/etc/pam.d/linux-hello)"
-msgstr ""
+msgstr "ملف التكوين (/etc/pam.d/linux-hello)"
 
 #: config_editor.py
 msgid "Configuration saved successfully"
@@ -84,7 +84,7 @@ msgstr "فهرس الكاميرا الافتراضي:"
 
 #: window.py
 msgid "Diagnostics"
-msgstr ""
+msgstr "التشخيصات"
 
 #: config_editor.py
 msgid "Enable logging"
@@ -96,11 +96,11 @@ msgstr "تسجيل الوجه"
 
 #: face_enroll.py
 msgid "Enrolling face for user: <b>{}</b>"
-msgstr ""
+msgstr "تسجيل الوجه للمستخدم: <b>{}</b>"
 
 #: window.py
 msgid "Enrolling..."
-msgstr ""
+msgstr "جاري التسجيل..."
 
 #: config_editor.py, face_enroll.py, pam_manager.py
 msgid "Error"
@@ -112,7 +112,7 @@ msgstr "خطأ في تحميل التكوين: {error}"
 
 #: window.py
 msgid "Error removing profile"
-msgstr ""
+msgstr "خطأ في إزالة الملف الشخصي"
 
 #: config_editor.py
 msgid "Error saving configuration: {error}"
@@ -127,7 +127,7 @@ msgid "Error: {error}"
 msgstr "خطأ: {error}"
 
 #: window.py
-#
+#, fuzzy
 msgid "Face"
 msgstr "👤 وجه"
 
@@ -137,29 +137,29 @@ msgstr "تسجيل الوجه"
 
 #: window.py
 msgid "Face Registration"
-msgstr ""
+msgstr "تسجيل الوجه"
 
 #: face_enroll.py
-#
+#, fuzzy
 msgid "Face enrolled successfully with {count} photos"
 msgstr "تم تسجيل وجه {username} مع {count} صور"
 
 #: pam_manager.py
 msgid "Face must be recognized to authenticate (highest security)"
-msgstr ""
+msgstr "يجب التعرف على الوجه للمصادقة (أمان أعلى)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition + password fallback"
 msgstr "متوسط (التعرف على الوجه + كلمة المرور)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Facial recognition only"
 msgstr "التعرف على الوجه مطلوب"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid ""
 "Failed to save PAM configuration:\n"
 "{error}"
@@ -167,10 +167,10 @@ msgstr "خطأ في حفظ التكوين: {error}"
 
 #: pam_manager.py
 msgid "Faster authentication within 5 minutes"
-msgstr ""
+msgstr "المصادقة الأسرع خلال 5 دقائق"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Help"
 msgstr "&ساعدة"
 
@@ -180,15 +180,15 @@ msgstr "تسجيل غير مكتمل: تم التقاط {captured}/{total} صو�
 
 #: window.py
 msgid "Initializing camera..."
-msgstr ""
+msgstr "جاري تهيئة الكاميرا..."
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "Invalid configuration"
 msgstr "حفظ التكوين"
 
 #: window.py
-#
+#, fuzzy
 msgid "Linux Hello"
 msgstr "حول Linux Hello"
 
@@ -218,7 +218,7 @@ msgstr "عدد الصور:"
 
 #: pam_manager.py
 msgid "Operation timed out. No administrator password provided?"
-msgstr ""
+msgstr "انتهت المهلة الزمنية للعملية. لم يتم توفير كلمة مرور المسؤول؟"
 
 #: pam_manager.py
 msgid "Options"
@@ -229,7 +229,7 @@ msgid "PAM Configuration (Authentication)"
 msgstr "تكوين PAM (المصادقة)"
 
 #: pam_manager.py
-#
+#, fuzzy
 msgid "PAM configuration file was not created."
 msgstr "# لم يتم العثور على تكوين PAM"
 
@@ -239,7 +239,7 @@ msgstr "إعدادات الأداء"
 
 #: window.py
 msgid "Profile removed"
-msgstr ""
+msgstr "تم إزالة الملف الشخصي"
 
 #: window.py
 msgid "Ready"
@@ -255,7 +255,7 @@ msgstr "تحديث"
 
 #: window.py
 msgid "Register Face"
-msgstr ""
+msgstr "✓ تسجيل الوجه"
 
 #: config_editor.py, pam_manager.py
 msgid "Reload"
@@ -275,7 +275,7 @@ msgstr "إعادة تعيين إلى الإعدادات الافتراضية"
 
 #: window.py
 msgid "Running diagnostics..."
-msgstr ""
+msgstr "جاري تشخيص النظام..."
 
 #: config_editor.py
 msgid "Save"
@@ -322,7 +322,7 @@ msgid "Use face first, or password if face not recognized"
 msgstr ""
 
 #: window.py
-#
+#, fuzzy
 msgid "User"
 msgstr "اسم المستخدم:"
 
@@ -335,59 +335,140 @@ msgid "Video width:"
 msgstr "عرض الفيديو:"
 
 #: config_editor.py
-#
+#, fuzzy
 msgid "seconds"
 msgstr " ثواني"
 
 #: window.py
 msgid "✓ All systems operational"
-msgstr ""
+msgstr "✓ جميع الأنظمة تعمل"
 
 #: window.py
 msgid "✓ Face recognized!"
-msgstr ""
+msgstr "✓ تم التعرف على الوجه!"
 
 #: window.py
 msgid "✓ Face registered successfully!"
-msgstr ""
+msgstr "✓ تم تسجيل الوجه بنجاح!"
 
 #: window.py
-#
+#, fuzzy
 msgid "✗ Enrollment failed"
 msgstr "تسجيل الوجه"
 
 #: window.py
 msgid "✗ Face not recognized"
-msgstr ""
+msgstr "✗ لم يتم التعرف على الوجه"
 
 #: window.py
 msgid "✗ Some issues detected"
-msgstr ""
+msgstr "✗ تم اكتشاف بعض المشاكل"
 
+#~ msgid "Linux Hello – Configuration"
+#~ msgstr "Linux Hello – التكوين"
 
+#~ msgid "&File"
+#~ msgstr "&ملف"
 
+#~ msgid "&Settings"
+#~ msgstr "&إعدادات"
 
+#~ msgid "&Quit"
+#~ msgstr "&خروج"
 
+#~ msgid "&Language"
+#~ msgstr "&اللغة"
 
+#~ msgid "&About"
+#~ msgstr "&حول"
 
+#~ msgid "About &Qt"
+#~ msgstr "حول &Qt"
 
+#~ msgid "Language Changed"
+#~ msgstr "تم تغيير اللغة"
 
+#~ msgid "Please restart the application for language changes to take effect."
+#~ msgstr "يرجى إعادة تشغيل التطبيق لكي تسري تغييرات اللغة."
 
+#~ msgid "Settings can be modified in the Settings tab."
+#~ msgstr "يمكن تعديل الإعدادات في علامة التبويب الإعدادات."
 
+#~ msgid ""
+#~ "Linux Hello – Configuration\n"
+#~ "Version 1.0.0\n"
+#~ "\n"
+#~ "Graphical interface to configure the Linux Hello facial recognition "
+#~ "service.\n"
+#~ "\n"
+#~ "© Linux Hello Contributors"
+#~ msgstr ""
+#~ "Linux Hello – التكوين\n"
+#~ "الإصدار 1.0.0\n"
+#~ "\n"
+#~ "واجهة رسومية لتكوين خدمة التعرف على الوجه Linux Hello.\n"
+#~ "\n"
+#~ "© مساهمو Linux Hello"
 
+#~ msgid "Press 'Start Camera' to see preview"
+#~ msgstr "اضغط على بدء الكاميرا لرؤية المعاينة"
 
+#~ msgid "Ex: john.doe"
+#~ msgstr "مثال: john.doe"
 
+#~ msgid "Please enter a username"
+#~ msgstr "يرجى إدخال اسم المستخدم"
 
+#~ msgid ""
+#~ "PAM (Pluggable Authentication Modules) allows using facial recognition "
+#~ "for system authentication."
+#~ msgstr ""
+#~ "يسمح PAM (وحدات المصادقة القابلة للتوصيل) باستخدام التعرف على الوجه "
+#~ "للمصادقة في النظام."
 
+#~ msgid "PAM Configuration"
+#~ msgstr "تكوين PAM"
 
+#~ msgid "Preset configuration:"
+#~ msgstr "التكوين المسبق:"
 
+#~ msgid "Strict (facial recognition required)"
+#~ msgstr "صارم (التعرف على الوجه مطلوب)"
 
+#~ msgid "Permissive (facial recognition optional)"
+#~ msgstr "متساهل (التعرف على الوجه اختياري)"
 
+#~ msgid "Apply"
+#~ msgstr "تطبيق"
 
+#~ msgid "Allow password as fallback"
+#~ msgstr "السماح بكلمة المرور كبديل"
 
+#~ msgid "Cache results"
+#~ msgstr "نتائج ذاكرة التخزين المؤقت"
 
+#~ msgid "Reload from Disk"
+#~ msgstr "إعادة تحميل من القرص"
 
+#~ msgid ""
+#~ "Are you sure you want to modify the PAM configuration?\n"
+#~ "This requires administrator privileges."
+#~ msgstr ""
+#~ "هل أنت متأكد من أنك تريد تعديل تكوين PAM؟\n"
+#~ "يتطلب هذا امتيازات المسؤول."
 
+#~ msgid "PAM configuration saved successfully"
+#~ msgstr "تم حفظ تكوين PAM بنجاح"
 
+#~ msgid ""
+#~ "Are you sure you want to save this configuration?\n"
+#~ "This may require administrator privileges."
+#~ msgstr ""
+#~ "هل أنت متأكد من أنك تريد حفظ هذا التكوين؟\n"
+#~ "قد يتطلب امتيازات المسؤول."
 
+#~ msgid "🔐 PAM"
+#~ msgstr "🔐 PAM"
 
+#~ msgid "⚙️ Settings"
+#~ msgstr "⚙️ إعدادات"

@@ -3,6 +3,12 @@
 
 set -e
 
+# Copy icon to pixmaps directory (for KDE and system icon cache)
+if [ -f /usr/share/linux-hello-gui/icon.png ]; then
+    cp -f /usr/share/linux-hello-gui/icon.png /usr/share/pixmaps/linux-hello-gui.png
+    chmod 644 /usr/share/pixmaps/linux-hello-gui.png
+fi
+
 # Install PolicyKit rules
 if [ ! -f /usr/share/polkit-1/actions/com.linux-hello.gui.policy ]; then
     install -D -m 644 /usr/share/doc/linux-hello-gui/com.linux-hello.gui.policy \
